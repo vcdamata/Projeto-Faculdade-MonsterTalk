@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Agatha Larissa da Silva Damasceno
 * César Acassio de Almeida
-* Nome completo do aluno 3
+* José Vitor de Assis Andrade
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
