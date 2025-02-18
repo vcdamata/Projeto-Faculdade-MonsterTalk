@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Agatha Larissa da Silva Damasceno
-* Nome completo do aluno 2
+* César Acassio de Almeida
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 5
