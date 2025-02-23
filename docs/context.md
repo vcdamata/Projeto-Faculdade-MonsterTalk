@@ -8,11 +8,10 @@ O MonsterTalk surge como uma resposta a esse desafio, propondo uma plataforma di
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+Atualmente, a internet oferece uma infinidade de recursos para o aprendizado de idiomas, mas grande parte desse conteúdo está dispersa e sem um direcionamento estruturado. Muitos estudantes têm dificuldade em manter uma rotina de estudo consistente devido à falta de um caminho pedagógico claro. Além disso, professores e pais gastam tempo considerável buscando materiais adequados, enfrentando desafios na curadoria de conteúdos que realmente atendam às necessidades dos alunos.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Esse problema impacta diretamente a qualidade do ensino de idiomas e a motivação dos estudantes. Sem um ambiente organizado, o aprendizado se torna irregular, resultando em lacunas de conhecimento e desmotivação. Assim, a necessidade de uma plataforma que centralize materiais progressivos e acessíveis torna-se evidente, tanto para os alunos quanto para os educadores e familiares.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
