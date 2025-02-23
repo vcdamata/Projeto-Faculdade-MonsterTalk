@@ -27,14 +27,11 @@ A plataforma também incluirá ferramentas para que os professores e pais possam
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A necessidade de aprender um novo idioma é crescente, seja para fins acadêmicos, profissionais ou culturais. No entanto, muitos alunos desistem do aprendizado por falta de materiais organizados ou pela ausência de um método eficiente que os motive a continuar estudando. A fragmentação de conteúdos na internet dificulta tanto o aprendizado dos estudantes quanto o trabalho de professores e pais que precisam de recursos confiáveis para ensinar.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Dados da EF English Proficiency Index apontam que o Brasil ocupa uma posição baixa no ranking mundial de proficiência em inglês, evidenciando a carência de um ensino estruturado e acessível. Além disso, um estudo da Education First destaca que o contato contínuo com um idioma é um dos fatores determinantes para o sucesso na aprendizagem.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O MonsterTalk propõe uma solução inovadora para esse cenário, centralizando conteúdos organizados e proporcionando uma experiência de ensino dinâmica. A plataforma não apenas facilita o aprendizado dos alunos, mas também oferece suporte para professores e pais, tornando o ensino de idiomas mais acessível, eficiente e motivador.
 
 ## Público-Alvo
 
