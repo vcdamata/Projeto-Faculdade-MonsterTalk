@@ -14,7 +14,6 @@ Plataforma digital que centraliza e organiza conteúdos para o ensino de idiomas
 * César Acassio de Almeida
 * José Vitor de Assis Andrade
 * André Bacelar Gonçalves
-* Nome completo do aluno 5
 
 
 ## Orientador
