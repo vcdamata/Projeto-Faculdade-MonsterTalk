@@ -1,4 +1,4 @@
-# Título do Projeto
+# MonsterTalk - Espantando o medo e soltando a voz
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Plataforma digital que centraliza e organiza conteúdos para o ensino de idiomas, oferecendo um ambiente estruturado, progressivo e acessível para alunos, professores e pais.
 
 ## Integrantes
 
