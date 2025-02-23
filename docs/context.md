@@ -12,12 +12,6 @@ Atualmente, a internet oferece uma infinidade de recursos para o aprendizado de 
 
 Esse problema impacta diretamente a qualidade do ensino de idiomas e a motivação dos estudantes. Sem um ambiente organizado, o aprendizado se torna irregular, resultando em lacunas de conhecimento e desmotivação. Assim, a necessidade de uma plataforma que centralize materiais progressivos e acessíveis torna-se evidente, tanto para os alunos quanto para os educadores e familiares.
 
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo é desenvolver uma plataforma de aprendizado progressivo, estruturada por níveis de dificuldade, permitindo que os alunos avancem conforme seu ritmo e necessidades. A plataforma começará com atividades que incentivam a memorização e o entendimento dos conceitos básicos, usando recursos como flashcards, vídeos educativos e quizzes, garantindo que os alunos adquiram uma base sólida de conhecimento. À medida que os alunos progridem, serão propostas atividades que incentivem a aplicação prática, como exercícios interativos e simulações, permitindo que eles coloquem em uso os conceitos aprendidos de maneira contextualizada.
