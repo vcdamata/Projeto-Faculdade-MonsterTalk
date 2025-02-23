@@ -23,12 +23,9 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo é desenvolver uma plataforma de aprendizado progressivo, estruturada por níveis de dificuldade, permitindo que os alunos avancem conforme seu ritmo e necessidades. A plataforma começará com atividades que incentivam a memorização e o entendimento dos conceitos básicos, usando recursos como flashcards, vídeos educativos e quizzes, garantindo que os alunos adquiram uma base sólida de conhecimento. À medida que os alunos progridem, serão propostas atividades que incentivem a aplicação prática, como exercícios interativos e simulações, permitindo que eles coloquem em uso os conceitos aprendidos de maneira contextualizada.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+A plataforma também incluirá ferramentas para que os professores e pais possam acompanhar o desempenho dos alunos em tempo real, facilitando a análise de seu progresso. Além disso, ao integrar recursos como fóruns de discussão e avaliações críticas, será possível estimular a avaliação de diferentes abordagens e soluções pelos alunos. Em níveis mais avançados, a plataforma oferecerá atividades criativas, como projetos e desafios colaborativos, que incentivem os alunos a criar novos conhecimentos e a aplicar sua aprendizagem de maneira inovadora e interdisciplinar.
 
 ## Justificativa
 
@@ -43,12 +40,12 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O MonsterTalk tem como público-alvo três principais grupos:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Alunos (6 a 17 anos): Crianças e adolescentes do ensino fundamental e médio que desejam aprender um novo idioma de forma estruturada e interativa. Muitos desses estudantes podem ter pouco contato com o idioma fora do ambiente escolar, tornando essencial uma plataforma que reforce o aprendizado de maneira lúdica e envolvente.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Professores: Educadores que buscam materiais didáticos organizados e ferramentas para apoiar o ensino de idiomas. O MonsterTalk pode ser usado como complemento às aulas tradicionais, fornecendo conteúdos progressivos e atividades interativas para os alunos.
+
+Pais e Responsáveis: Muitos pais desejam acompanhar o desenvolvimento linguístico de seus filhos, mas encontram dificuldades para encontrar materiais adequados. A plataforma fornecerá ferramentas que os ajudem a monitorar o progresso dos alunos e incentivar a prática do idioma em casa.
+
+O projeto considera diferentes perfis de usuários, desde crianças com pouca familiaridade com tecnologia até adolescentes habituados ao uso de dispositivos digitais. A interface do MonsterTalk será projetada para garantir uma navegação intuitiva e acessível, atendendo às necessidades de cada grupo.
