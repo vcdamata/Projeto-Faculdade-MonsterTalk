@@ -20,11 +20,11 @@ A plataforma também incluirá ferramentas para que os professores e pais possam
 
 ## Justificativa
 
-A necessidade de aprender um novo idioma é crescente, seja para fins acadêmicos, profissionais ou culturais. No entanto, muitos alunos desistem do aprendizado por falta de materiais organizados ou pela ausência de um método eficiente que os motive a continuar estudando. A fragmentação de conteúdos na internet dificulta tanto o aprendizado dos estudantes quanto o trabalho de professores e pais que precisam de recursos confiáveis para ensinar.
+O MonsterTalk preenche a lacuna das plataformas tradicionais de ensino de idiomas, que falham em manter os alunos engajados. Estudos do Duolingo indicam que até 70% dos usuários abandonam aplicativos de idiomas por falta de motivação, metodologias desorganizadas ou ausência de acompanhamento. Nossa proposta é mudar esse cenário com uma plataforma estruturada, interativa e acessível.
 
-Dados da EF English Proficiency Index apontam que o Brasil ocupa uma posição baixa no ranking mundial de proficiência em inglês, evidenciando a carência de um ensino estruturado e acessível. Além disso, um estudo da Education First destaca que o contato contínuo com um idioma é um dos fatores determinantes para o sucesso na aprendizagem.
+Ao centralizar conteúdos organizados e progressivos, o MonsterTalk reduz a dispersão de informações e facilita o aprendizado contínuo. Com desafios interativos, incentivo à conversação e acompanhamento personalizado, mantém os usuários ativos e motivados. Professores e pais também contam com ferramentas para monitorar e apoiar o progresso dos alunos.
 
-O MonsterTalk propõe uma solução inovadora para esse cenário, centralizando conteúdos organizados e proporcionando uma experiência de ensino dinâmica. A plataforma não apenas facilita o aprendizado dos alunos, mas também oferece suporte para professores e pais, tornando o ensino de idiomas mais acessível, eficiente e motivador.
+A plataforma atende desde crianças com pouca familiaridade com tecnologia até adolescentes acostumados ao digital, garantindo uma experiência intuitiva e personalizada. O objetivo é reduzir a taxa de desistência e tornar a fluência em um novo idioma uma conquista acessível e duradoura.
 
 ## Público-Alvo
 
