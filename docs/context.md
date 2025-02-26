@@ -24,11 +24,11 @@ A plataforma também incluirá ferramentas para que os professores e pais possam
 
 ## Justificativa
 
-O MonsterTalk preenche a lacuna das plataformas tradicionais de ensino de idiomas, que falham em manter os alunos engajados. Estudos do Duolingo indicam que até 70% dos usuários abandonam aplicativos de idiomas por falta de motivação, metodologias desorganizadas ou ausência de acompanhamento. Nossa proposta é mudar esse cenário com uma plataforma estruturada, interativa e acessível.
+O MonsterTalk preenche a lacuna das plataformas tradicionais de ensino de idiomas, que falham em manter os alunos engajados. Nossa proposta é mudar esse cenário de abandono de 70% dos usuarios aprensentados nas pesquisas do Duolingo.
 
-Ao centralizar conteúdos organizados e progressivos, o MonsterTalk reduz a dispersão de informações e facilita o aprendizado contínuo. Com desafios interativos, incentivo à conversação e acompanhamento personalizado, mantém os usuários ativos e motivados. Professores e pais também contam com ferramentas para monitorar e apoiar o progresso dos alunos.
+Por ser uma plataforma inovadora que centraliza materiais didáticos estruturados para tornar o aprendizado de idiomas mais acessível, dinâmico, eficiente e motivador. Com recursos interativos, desafios gamificados e acompanhamento de desempenho, mantemos os alunos engajados enquanto facilitamos o trabalho de professores e pais no direcionamento e suporte ao aprendizado.
 
-A plataforma atende desde crianças com pouca familiaridade com tecnologia até adolescentes acostumados ao digital, garantindo uma experiência intuitiva e personalizada. O objetivo é reduzir a taxa de desistência e tornar a fluência em um novo idioma uma conquista acessível e duradoura.
+Além de aprimorar a experiência educacional, o MonsterTalk impulsiona carreiras e abre novas oportunidades, capacitando jovens para um mundo globalizado. Ao tornar a prática de idiomas mais envolvente e acessível, promovemos um ensino de qualidade que transforma conhecimento em crescimento pessoal e profissional.
 
 ## Público-Alvo
 
