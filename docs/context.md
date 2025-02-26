@@ -8,9 +8,13 @@ O MonsterTalk surge como uma resposta a esse desafio, propondo uma plataforma di
 
 ## Problema
 
-Atualmente, a internet oferece uma infinidade de recursos para o aprendizado de idiomas, mas grande parte desse conteúdo está dispersa e sem um direcionamento estruturado. Muitos estudantes têm dificuldade em manter uma rotina de estudo consistente devido à falta de um caminho pedagógico claro. Além disso, professores e pais gastam tempo considerável buscando materiais adequados, enfrentando desafios na curadoria de conteúdos que realmente atendam às necessidades dos alunos.
+O Brasil enfrenta desafios significativos no ensino de idiomas. De acordo com o EF English Proficiency Index, o país ocupa uma posição baixa no ranking mundial de proficiência em inglês, refletindo a carência de um ensino estruturado e acessível. Um estudo da Education First reforça que o contato contínuo com o idioma é um dos principais fatores para o sucesso na aprendizagem, mas muitos alunos não conseguem manter essa exposição de forma eficiente.
 
-Esse problema impacta diretamente a qualidade do ensino de idiomas e a motivação dos estudantes. Sem um ambiente organizado, o aprendizado se torna irregular, resultando em lacunas de conhecimento e desmotivação. Assim, a necessidade de uma plataforma que centralize materiais progressivos e acessíveis torna-se evidente, tanto para os alunos quanto para os educadores e familiares.
+Embora a internet ofereça uma infinidade de recursos para o aprendizado de idiomas, grande parte desse conteúdo está dispersa e sem um direcionamento estruturado. Muitos estudantes têm dificuldade em manter uma rotina de estudo consistente devido à ausência de um caminho pedagógico claro. Além disso, professores e pais gastam tempo considerável buscando materiais adequados, enfrentando desafios na curadoria de conteúdos que realmente atendam às necessidades dos alunos.
+
+Essa falta de organização impacta diretamente a qualidade do ensino e a motivação dos estudantes. Sem um ambiente estruturado, o aprendizado se torna irregular, resultando em lacunas de conhecimento e desmotivação. A necessidade de soluções mais eficazes também é evidente no ambiente digital. Segundo a Duolingo, apenas 30% dos usuários de aplicativos de idiomas permanecem ativos após o primeiro mês, indicando que muitas plataformas não conseguem manter o engajamento dos alunos a longo prazo. Além disso, um estudo da British Council aponta que a falta de recursos didáticos de qualidade prejudica o desempenho dos estudantes.
+
+Diante desse cenário, torna-se essencial uma plataforma que centralize materiais pedagógicos estruturados, ordenado e incentive a aprendizagem contínua por meio de metodologias lúdicas e progressivas. Isso beneficiaria não apenas os alunos, mas também professores e familiares, garantindo um ensino mais eficaz e acessível.
 
 ## Objetivos
 
