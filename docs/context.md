@@ -1,10 +1,13 @@
 # Introdução
 
-O aprendizado de idiomas é uma habilidade essencial no mundo globalizado, abrindo portas para oportunidades acadêmicas, profissionais e culturais. No entanto, crianças e adolescentes muitas vezes enfrentam barreiras nesse processo, como falta de materiais organizados, baixa motivação e medo de se expressar em outro idioma. Além disso, professores e pais encontram dificuldades para acessar conteúdos estruturados que facilitem o ensino e o acompanhamento do progresso dos alunos.
+Entre 2024 e 2033, o mercado global de sistemas de aprendizado de idiomas online está projetado para crescer de USD 19,09 bilhões para USD 82,75 bilhões, representando um CAGR de 17,7%. Essa rápida expansão é impulsionada pelo aumento da globalização, pela transformação digital na educação e pela crescente demanda por proficiência multilíngue em diversos setores.
 
-A demanda por soluções educacionais interativas e acessíveis tem crescido significativamente. De acordo com a Duolingo, apenas 30% dos usuários de aplicativos de idiomas permanecem ativos após o primeiro mês, indicando a necessidade de métodos mais eficazes para manter o engajamento. Ao mesmo tempo, um estudo da British Council revela que a falta de recursos didáticos de qualidade prejudica o desempenho dos estudantes. Esse cenário destaca a necessidade de uma plataforma que centralize materiais pedagógicos e incentive o aprendizado contínuo por meio de abordagens lúdicas e progressivas.
+Entre as principais regiões que contribuem para esse crescimento, o mercado da Ásia-Pacífico lidera a adoção, seguido por Europa e América do Norte. No entanto, o Brasil desponta como um dos mercados mais promissores da América Latina, impulsionado pelo avanço da digitalização, pelo crescente interesse na fluência em idiomas estrangeiros e pelo aumento da oferta de cursos online acessíveis.
 
-O MonsterTalk surge como uma resposta a esse desafio, propondo uma plataforma digital que organiza conteúdos para o ensino de idiomas de forma interativa. O objetivo é eliminar a fragmentação de materiais, proporcionar uma experiência dinâmica e envolvente para alunos de 6 a 17 anos e oferecer suporte para professores e pais, garantindo um ambiente estruturado para o aprendizado de línguas.
+De acordo com as tendências recentes, os idiomas mais populares aprendidos online incluem inglês, espanhol, mandarim e francês, sendo o inglês o líder do mercado devido à sua relevância global nos negócios. Além disso, mercados como Vietnã, Indonésia, Turquia e Coreia do Sul estão apresentando o crescimento mais rápido na adoção de aprendizado de idiomas online em comparação com anos anteriores.
+
+Com empresas cada vez mais exigindo proficiência em inglês e espanhol, e um número crescente de brasileiros buscando capacitação para oportunidades internacionais, o mercado de aprendizado de idiomas online no Brasil apresenta um potencial expressivo de crescimento nos próximos anos. Esse cenário reforça a importância de estratégias direcionadas para o público brasileiro, tanto em termos de oferta de cursos quanto em campanhas promocionais voltadas para esse segmento em expansão.
+
 
 ## Problema
 
