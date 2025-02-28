@@ -6,7 +6,7 @@ Entre as principais regiões que contribuem para esse crescimento, o mercado da 
 
 De acordo com as tendências recentes, os idiomas mais populares aprendidos online incluem inglês, espanhol, mandarim e francês, sendo o inglês o líder do mercado devido à sua relevância global nos negócios. Além disso, mercados como Vietnã, Indonésia, Turquia e Coreia do Sul estão apresentando o crescimento mais rápido na adoção de aprendizado de idiomas online em comparação com anos anteriores.
 
-Com empresas cada vez mais exigindo proficiência em inglês e espanhol, e um número crescente de brasileiros buscando capacitação para oportunidades internacionais, o mercado de aprendizado de idiomas online no Brasil apresenta um potencial expressivo de crescimento nos próximos anos. Esse cenário reforça a importância de estratégias direcionadas para o público brasileiro, tanto em termos de oferta de cursos quanto em campanhas promocionais voltadas para esse segmento em expansão.
+Com empresas cada vez mais exigindo proficiência em inglês e espanhol, e um número crescente de brasileiros buscando capacitação para oportunidades internacionais, o mercado de aprendizado de idiomas online no Brasil apresenta um potencial expressivo de crescimento nos próximos anos. Esse cenário reforça a importância de estratégias direcionadas para o público brasileiro, tanto em termos de oferta de plataformas de ensino quanto cursos voltados para esse segmento em expansão.
 
 
 ## Problema
