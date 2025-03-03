@@ -27,9 +27,9 @@ A plataforma também incluirá ferramentas para que os professores e pais possam
 
 ## Justificativa
 
-O MonsterTalk preenche a lacuna das plataformas tradicionais de ensino de idiomas, que falham em manter os alunos engajados. Nossa proposta é mudar esse cenário de abandono de 70% dos usuarios aprensentados nas pesquisas do Duolingo.
+O MonsterTalk preenche a lacuna das plataformas tradicionais de ensino de idiomas, que falham em manter os alunos engajados. Nossa proposta é mudar esse cenário de abandono de 70% dos usuarios apresentados nas pesquisas do Duolingo.
 
-Por ser uma plataforma inovadora que centraliza materiais didáticos estruturados para tornar o aprendizado de idiomas mais acessível, dinâmico, eficiente e motivador. Com recursos interativos, desafios gamificados e acompanhamento de desempenho, mantemos os alunos engajados enquanto facilitamos o trabalho de professores e pais no direcionamento e suporte ao aprendizado.
+Através de recursos interativos, desafios gamificados e acompanhamento de desempenho, mantemos os alunos engajados enquanto facilitamos o trabalho de professores e pais por centralizar materiais didáticos estruturados para tornar o aprendizado de idiomas mais acessível, dinâmico, eficiente e motivador.
 
 Além de aprimorar a experiência educacional, o MonsterTalk impulsiona carreiras e abre novas oportunidades, capacitando jovens para um mundo globalizado. Ao tornar a prática de idiomas mais envolvente e acessível, promovemos um ensino de qualidade que transforma conhecimento em crescimento pessoal e profissional.
 
