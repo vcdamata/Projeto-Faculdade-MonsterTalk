@@ -21,9 +21,11 @@ Diante desse cenário, torna-se essencial uma plataforma que centralize materiai
 
 ## Objetivos
 
-O objetivo é desenvolver uma plataforma de aprendizado progressivo, estruturada por níveis de dificuldade, permitindo que os alunos avancem conforme seu ritmo e necessidades. A plataforma começará com atividades que incentivam a memorização e o entendimento dos conceitos básicos, usando recursos como flashcards, vídeos educativos e quizzes, garantindo que os alunos adquiram uma base sólida de conhecimento. À medida que os alunos progridem, serão propostas atividades que incentivem a aplicação prática, como exercícios interativos e simulações, permitindo que eles coloquem em uso os conceitos aprendidos de maneira contextualizada.
+O objetivo do projeto é desenvolver uma plataforma de aprendizado progressivo, organizada por níveis de dificuldade, permitindo que os alunos avancem no próprio ritmo. O aprendizado começará com atividades voltadas à memorização e compreensão dos conceitos básicos, construindo uma base sólida.
 
-A plataforma também incluirá ferramentas para que os professores e pais possam acompanhar o desempenho dos alunos em tempo real, facilitando a análise de seu progresso. Além disso, ao integrar recursos como fóruns de discussão e avaliações críticas, será possível estimular a avaliação de diferentes abordagens e soluções pelos alunos. Em níveis mais avançados, a plataforma oferecerá atividades criativas, como projetos e desafios colaborativos, que incentivem os alunos a criar novos conhecimentos e a aplicar sua aprendizagem de maneira inovadora e interdisciplinar.
+Além de incentivar a aplicação prática dos conhecimentos em contextos reais, a plataforma oferecerá ferramentas para que professores e pais acompanhem o progresso dos alunos em tempo real, facilitando sua análise e apoio.
+
+A troca de conhecimentos será estimulada por meio de abordagens interativas e colaborativas. Os alunos terão acesso a desafios criativos e projetos coletivos, incentivando a inovação e a aplicação interdisciplinar do aprendizado.
 
 ## Justificativa
 
