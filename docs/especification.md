@@ -50,7 +50,39 @@ ___________________________
 - **Estilo de vida:** Equilibra a vida profissional e familiar, sempre buscando tempo para atividades educativas. Prefere ferramentas que possam ser acessadas de qualquer lugar e que proporcionem um aprendizado contínuo.  
 - **Valores morais:** Acredita que a educação é a chave para um futuro promissor e que o aprendizado deve ser prazeroso e estimulante. Defende a importância do ensino bilíngue para ampliar oportunidades.  
 
+___________________________
 
+### Persona Alunos:
+#### **Persona: Lucas Oliveira - Aluno
+
+- **Nome:** Lucas Oliveira
+- **Sexo:** Masculino
+- **Idade:** 21 anos
+- **Estado Civil:** Solteiro
+- **Classe Social:** Classe média
+- **Nacionalidade:** Brasileira
+- **Localização:** São Paulo, SP
+- **Escolaridade:** Cursando o 4° semestre em Sistema de Informação
+- **Profissão:** Estudante universitario e estagiário de TI
+  
+Lucas tem 21 anos é estágiario em uma impresa multinacional na área de TI e tem uma rotina corrida entre faculdade e estágio. Ele sonha em trabalhar em uma empresa no exterior e sabe o quanto é importante o inglês para a sua profissão e para seu futuro lá fora, mas sente dificuldade em manter uma rotina de estudo. Prefere aprender de forma prática e aplicada ao seu dia a dia, sem métodos tradicionais cansativos.
+
+#### **Características Comportamentais**
+
+- **Analítico:** Gosta de aprender de forma estruturada e eficiente;
+- **Pragmático:** Prefere conteúdos práticos e aplicáveis ao seu dia a dia;
+- **Autodidata:** Está acostumado a aprender sozinho, mas precisa de um direcionamento;
+- **Competitivo:** Quer se destacar no mercado e busca sempre melhorar suas habilidades;
+
+#### **Critérios Psicográficos**
+
+- **Estilo de Vida:** Rotina intensa, equilibrando faculdade, estágio e estudos extras. Busca praticidade e eficiência em tudo o que faz;
+
+- **Valores e Crenças:** Acredita que o esforço pessoal leva ao sucesso. Valoriza inovação, aprendizado contínuo e crescimento profissional;
+
+- **Interesses e Hobbies:** Tecnologia, games, programação, consumo de conteúdo em inglês (YouTube, podcasts, artigos técnicos);
+
+- **Canais de Informação:** Redes sociais (LinkedIn, Twitter X, Instagram, Facebook), fóruns de tecnologia (IT Forum, Reddit, ), cursos online (Udemy, Alura).
 
 ## Histórias de Usuários
 
