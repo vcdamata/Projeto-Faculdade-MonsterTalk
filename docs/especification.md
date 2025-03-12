@@ -21,6 +21,36 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+___________________________
+
+### Persona pais:
+#### **Persona: Mariana Souza – Mãe**
+
+<img src="./img/Personas/Mae_Mariana_Souza.png" alt="Persona da Mariana Souza – Mãe" height="100" />
+
+##### **Informações Sociodemográficas**  
+- **Nome:** Mariana Souza  
+- **Sexo:** Feminino  
+- **Idade:** 38 anos
+- **Estado civil:** Casada
+- **Filhos:** Gabriel (10 anos) e Sofia (14 anos)
+- **Classe social:** Classe média  
+- **Nacionalidade:** Brasileira  
+- **Localização:** Cuiabá, MT  
+- **Escolaridade:** Ensino superior completo
+- **Profissão:** Analista financeira
+
+##### **Características Comportamentais**  
+- **Gostos pessoais:** Aprecia atividades culturais, livros e caminhadas. Apaixonada por educação e desenvolvimento infantil, sempre busca novas metodologias para estimular o aprendizado do filho.   
+- **Sensibilidade a preços:** Está disposta a pagar por soluções educacionais de qualidade, desde que tenham impacto real no desenvolvimento do filho. Prefere planos que ofereçam personalização e acompanhamento próximo.  
+- **Qualidade desejada em um produto:** Procura plataformas seguras, intuitivas e baseadas em metodologias eficazes.  
+
+##### **Critérios Psicográficos**  
+- **Personalidade:** Cuidadosa, detalhista e sempre envolvida no processo educacional do filho. Gosta de acompanhar cada etapa do aprendizado e garantir que o filho tenha uma base sólida para o futuro.  
+- **Estilo de vida:** Equilibra a vida profissional e familiar, sempre buscando tempo para atividades educativas. Prefere ferramentas que possam ser acessadas de qualquer lugar e que proporcionem um aprendizado contínuo.  
+- **Valores morais:** Acredita que a educação é a chave para um futuro promissor e que o aprendizado deve ser prazeroso e estimulante. Defende a importância do ensino bilíngue para ampliar oportunidades.  
+
+
 
 ## Histórias de Usuários
 
