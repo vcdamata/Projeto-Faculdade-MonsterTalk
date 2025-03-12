@@ -23,7 +23,37 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 ___________________________
 
-### Persona pais e responsáveis:
+
+### 2. Persona Professores:
+Camila Oliveira
+
+<img src="./img/Personas/ProfessorCamilaOliveira.jpg" alt="Professora Camila Oliveira" height="100">
+
+##### Informações Sociodemográficas
+- **Nome:** Camila Oliveira
+- **Sexo:** Feminino
+- **Idade:** 34 anos
+- **Estado civil:** Solteira
+- **Filhos:** Não possui
+- **Classe social:** Classe média
+- **Nacionalidade:** Brasileira
+- **Localização:** Rio de Janeiro, RJ
+- **Escolaridade:** Ensino superior completo
+- **Profissão:** Professora de Inglês e Francês
+
+##### **Características Comportamentais**  
+- **Gostos pessoais:** Apaixonada por idiomas, viagens e cultura. Gosta de assistir séries, ler livros sobre inovação no ensino e explorar novas metodologias educacionais.
+- **Sensibilidade a preços:** Está disposta a investir em plataformas educacionais que ofereçam personalização e acompanhamento do progresso dos alunos. Prefere soluções que combinem tecnologia e ensino interativo.
+- **Qualidade desejada em um produto:** Procura ferramentas intuitivas, organizadas e que tragam resultados tangíveis no aprendizado dos alunos.
+
+##### **Critérios Psicográficos** 
+
+- **Personalidade:** Criativa, empática e inovadora. Sempre em busca de novas estratégias para tornar o ensino de idiomas mais acessível e envolvente.
+- **Estilo de vida:** Equilibra o trabalho com momentos de lazer e aprendizado pessoal. Valoriza plataformas que possam ser utilizadas de forma prática e que otimizem seu tempo de planejamento.
+
+- **Valores morais:** Acredita que o ensino de idiomas deve ser interativo e progressivo. Defende metodologias ativas e o uso da tecnologia para potencializar o aprendizado.
+
+### 3. Persona pais e responsáveis:
 #### **Persona: Mariana Souza – Mãe**
 
 <img src="./img/Personas/Mae_Mariana_Souza.png" alt="Persona da Mariana Souza – Mãe" height="100" />
