@@ -23,7 +23,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 ___________________________
 
-### Persona pais:
+### Persona pais e responsáveis:
 #### **Persona: Mariana Souza – Mãe**
 
 <img src="./img/Personas/Mae_Mariana_Souza.png" alt="Persona da Mariana Souza – Mãe" height="100" />
@@ -69,6 +69,24 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
+__________________________________________________
+
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+#### Pais e responsáveis:
+
+| EU COMO... `Mãe – Mariana Souza` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
+|----------------------|----------------------------------|------------------------|
+| Mãe preocupada com a educação dos filhos | Acompanhar o progresso do aprendizado dos meus filhos | Garantir que eles estejam evoluindo e identificar dificuldades rapidamente |
+| Mãe ocupada com trabalho e família | Receber notificações e relatórios automáticos sobre o desempenho dos meus filhos | Conseguir acompanhar a evolução deles mesmo com uma rotina agitada |
+| Mãe que busca métodos eficazes | Ter acesso a conteúdos organizados e estruturados por nível | Proporcionar um aprendizado progressivo e sem lacunas para meus filhos |
+| Mãe que valoriza o ensino bilíngue | Garantir que meus filhos pratiquem conversação no idioma | Ajudá-los a desenvolver confiança e fluência ao falar |
+| Mãe preocupada com o engajamento | Ter acesso a desafios e recompensas que motivem meus filhos a estudar | Evitar que percam o interesse e abandonem o aprendizado |
+| Mãe que quer segurança | Garantir que a plataforma seja segura e apropriada para a idade das crianças | Manter um ambiente confiável e livre de conteúdos inadequados |
+| Mãe que deseja um ensino personalizado | Ajustar as atividades conforme o ritmo e dificuldades dos meus filhos | Proporcionar um ensino mais eficiente e adaptado às necessidades individuais |
+| Mãe interessada na interação | Participar de uma comunidade de pais e professores | Compartilhar experiências e obter dicas sobre o ensino de idiomas |
+
 
 ## Requisitos
 
