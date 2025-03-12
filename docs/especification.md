@@ -53,7 +53,7 @@ ___________________________
 ___________________________
 
 ### Persona Alunos:
-#### **Persona: Lucas Oliveira - Aluno
+#### **Persona: Lucas Oliveira - Aluno**
 
 - **Nome:** Lucas Oliveira
 - **Sexo:** Masculino
