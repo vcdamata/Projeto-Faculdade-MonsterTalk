@@ -12,7 +12,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 #### **Amanda Ferreira - Aluna**
 
-<img src="./img/Personas/AlunaAmandaFerreira.jpg" alt="Persona da Mariana Souza – Mãe" height="100" />
+<img src="./img/Personas/AlunaAmandaFerreira.png" alt="Persona da Amanda Ferreira – Aluna" height="100" />
 
 - **Nome:** Amanda Ferreira
 - **Sexo:** Feminino
