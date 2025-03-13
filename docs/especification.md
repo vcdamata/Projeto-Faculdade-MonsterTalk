@@ -123,6 +123,17 @@ __________________________________________________
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
+#### Alunos:
+
+| EU COMO... `Aluna – Amanda Ferreira` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
+|----------------------|----------------------------------|------------------------|
+|Aluna	| Acessar exercícios baseados em séries e músicas	| Aprender inglês de forma divertida e natural|
+|Aluna	| Praticar conversação | Perder o medo de falar inglês e melhorar a pronúncia|
+|Aluna	| Criar um plano de estudos personalizado	| Estudar de forma consistente e acompanhar meu progresso|
+|Aluna	| Aprender vocabulário dentro de contextos reais e com base no meu nível |	Memorizar palavras de forma natural sem precisar decorar listas|
+|Aluna	| Poder escolher conteúdos baseados nos meus interesses | Aprender com temas que gosto e tornar o estudo mais envolvente|
+|Aluna	| Ter exercícios rápidos e interativos	| Aproveitar pequenos momentos do dia para aprender sem precisar de longas aulas|
+
 #### Pais e responsáveis:
 
 | EU COMO... `Mãe – Mariana Souza` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
