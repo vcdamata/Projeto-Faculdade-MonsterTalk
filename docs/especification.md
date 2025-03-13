@@ -134,24 +134,34 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Mãe interessada na interação | Participar de uma comunidade de pais e professores | Compartilhar experiências e obter dicas sobre o ensino de idiomas |
 
 
-## Requisitos
+## **Requisitos**  
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.  
 
-### Requisitos Funcionais
+### **Requisitos Funcionais**  
 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+| ID     | Descrição do Requisito | Prioridade |
+|--------|---------------------------------------------------------------|-----------|
+| RF-001 | A plataforma deve permitir o cadastro e login de usuários (pais, alunos e professores). | ALTA |
+| RF-002 | A aplicação deve oferecer um painel de acompanhamento do progresso dos alunos para pais e professores. | ALTA |
+| RF-003 | O sistema deve disponibilizar atividades progressivas, divididas por nível de dificuldade. | ALTA |
+| RF-004 | A plataforma deve incluir quizzes, flashcards e desafios interativos para reforçar o aprendizado. | ALTA |
+| RF-005 | O sistema fornecer relatórios de desempenho para pais e professores. | MÉDIA |
+| RF-006 | A plataforma deve oferecer um ambiente seguro e moderado | MÉDIA |
+| RF-007 | A aplicação deve permitir a personalização do ritmo de aprendizado para cada aluno. | MÉDIA |
+| RF-008 | O sistema deve disponibilizar fóruns ou comunidades para troca de experiências entre pais, professores e alunos. | BAIXA |
+| RF-009 | A plataforma deve permitir integração com assistentes de voz para prática oral. | BAIXA |
 
+---
 
-### Requisitos não Funcionais
+### **Requisitos Não Funcionais**  
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID      | Descrição do Requisito | Prioridade |
+|---------|---------------------------------------------------------------|-----------|
+| RNF-001 | A aplicação deve ser responsiva e funcionar em dispositivos móveis e desktops. | ALTA |
+| RNF-002 | O sistema deve garantir segurança e proteção de dados dos usuários. | ALTA |
+| RNF-003 | A plataforma deve ter um design intuitivo e acessível para diferentes faixas etárias. | ALTA |
+| RNF-004 | O tempo de resposta da plataforma deve ser inferior a 2 segundos para ações principais. | MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
