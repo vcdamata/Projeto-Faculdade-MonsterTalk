@@ -29,19 +29,15 @@ Ela já tem como objetivo se tornar uma profissional em TI, e trabalhar no exter
 
 #### **Características Comportamentais**
 
-- **Extrovertida:** Gosta de socializar e interagir com pessoas;
-- **Curiosa:** Sempre busca aprender algo novo, especialmente online;
-- **Multitarefa:** Usa redes sociais enquanto estuda e faz outras atividades;
-- **Criativa:** Se expressa por meio de vídeos, fotos e textos nas redes sociais;
-- **Impulsiva:** Se motiva facilmente, mas pode perder o interesse rápido
+- **Gostos pessoais:** Gosta de socializar e interagir com pessoas, nos tempos livres assisti séries e filmes, principalmente produções internacionais, se interessa por viagens e culturas estrangeiras e sonha em fazer intercâmbio no futuro.;
+- **Sensibilidade a preço:** Está disposta a pagar por algo se perceber que realmente vale a pena, mas como ainda depende financeiramente dos pais, prefere opções gratuitas ou com preço acessível.
+- **Qualidade desejada em um produto:** O produto precisa ser divertido e interativo, pois ela se desmotiva facilmente com métodos tradicionais.
 
 #### **Critérios Psicográficos**
 
+- **Personalidade:** Extrovertida e comunicativa, gosta de interagir com amigos e compartilhar experiências nas redes sociais.
 - **Estilo de Vida:** Gosta de estudar no seu próprio ritmo, combinando aprendizado com entretenimento. Passa boa parte do tempo online consumindo conteúdo e interagindo nas redes sociais.;
-- **Valores e Crenças:** Acredita que aprender inglês abre portas para o futuro. Valoriza experiências imersivas e métodos inovadores de ensino.
-- **Interesses e Hobbies:** Cultura pop, redes sociais, viagens, música, games, criação de conteúdo;
-- **Canais de Informação:** TikTok, YouTube, Spotify (podcasts e musicas), blogs de intercâmbio e estudos, redes sociais (Twitter X, Instagram, Facebook), fóruns de tecnologia (IT Forum, Reddit, ), cursos online (Udemy).
-
+- **Valores morais:** Acredita no esforço pessoal e entende que aprender um novo idioma pode abrir portas para seu futuro.
 
 ### 2. Professores:
 Camila Oliveira
