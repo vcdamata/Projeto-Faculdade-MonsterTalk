@@ -101,24 +101,6 @@ ___________________________
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-__________________________________________________
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
 #### Alunos:
 
 | EU COMO... `Aluna – Amanda Ferreira` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
@@ -129,6 +111,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Aluna	| Aprender vocabulário dentro de contextos reais e com base no meu nível |	Memorizar palavras de forma natural sem precisar decorar listas|
 |Aluna	| Poder escolher conteúdos baseados nos meus interesses | Aprender com temas que gosto e tornar o estudo mais envolvente|
 |Aluna	| Ter exercícios rápidos e interativos	| Aproveitar pequenos momentos do dia para aprender sem precisar de longas aulas|
+
+#### Professores:
+|EU COMO... `Professora - Camila Oliveira`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Professora | Acessar materiais didáticos organizados por nível	           | Facilitar o planejamento das aulas e economizar tempo  |
+|Professora       | Criar atividades interativas para os alunos	    | Engajar os alunos e tornar o aprendizado mais dinâmico |
+|Professora       | Gerar relatórios de desempenho dos alunos		    | Avaliar a evolução individual e identificar dificuldades |
+|Professora       | Personalizar trilhas de aprendizado conforme o nível do aluno	 | Garantir que cada estudante avance no próprio ritmo |
+|Professora       | Acompanhar o progresso dos alunos em tempo real	 | Oferecer suporte personalizado e ajustar o ensino conforme necessário |
 
 #### Pais e responsáveis:
 
