@@ -140,10 +140,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-002 | A aplicação deve oferecer um painel de acompanhamento do progresso dos alunos para pais e professores. | ALTA |
 | RF-003 | O sistema deve disponibilizar atividades progressivas, divididas por nível de dificuldade. | ALTA |
 | RF-004 | A plataforma deve incluir quizzes, flashcards e desafios interativos para reforçar o aprendizado. | ALTA |
-| RF-005 | A plataforma deve oferecer um ambiente seguro e moderado | MÉDIA |
-| RF-006 | A aplicação deve permitir a personalização do ritmo de aprendizado para cada aluno. | MÉDIA |
-| RF-007 | O sistema deve disponibilizar fóruns ou comunidades para troca de experiências entre pais, professores e alunos. | BAIXA |
-| RF-008 | A plataforma deve permitir integração com assistentes de voz para prática oral. | BAIXA |
+| RF-005 | O sistema deve disponibilizar fóruns ou comunidades entre pais, professores e alunos. | BAIXA |
+| RF-006 | A plataforma deve permitir integração com assistentes de voz para prática oral. | BAIXA |
 
 ---
 
