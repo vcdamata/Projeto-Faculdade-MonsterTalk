@@ -1,11 +1,5 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
-
 ## Personas
 
 ### 1. Persona Alunos:
@@ -119,7 +113,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Professora       | Criar atividades interativas para os alunos	    | Engajar os alunos e tornar o aprendizado mais dinâmico |
 |Professora       | Gerar relatórios de desempenho dos alunos		    | Avaliar a evolução individual e identificar dificuldades |
 |Professora       | Personalizar trilhas de aprendizado conforme o nível do aluno	 | Garantir que cada estudante avance no próprio ritmo |
-|Professora       | Acompanhar o progresso dos alunos em tempo real	 | Oferecer suporte personalizado e ajustar o ensino conforme necessário |
 
 #### Pais e responsáveis:
 
@@ -147,11 +140,10 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-002 | A aplicação deve oferecer um painel de acompanhamento do progresso dos alunos para pais e professores. | ALTA |
 | RF-003 | O sistema deve disponibilizar atividades progressivas, divididas por nível de dificuldade. | ALTA |
 | RF-004 | A plataforma deve incluir quizzes, flashcards e desafios interativos para reforçar o aprendizado. | ALTA |
-| RF-005 | O sistema fornecer relatórios de desempenho para pais e professores. | MÉDIA |
-| RF-006 | A plataforma deve oferecer um ambiente seguro e moderado | MÉDIA |
-| RF-007 | A aplicação deve permitir a personalização do ritmo de aprendizado para cada aluno. | MÉDIA |
-| RF-008 | O sistema deve disponibilizar fóruns ou comunidades para troca de experiências entre pais, professores e alunos. | BAIXA |
-| RF-009 | A plataforma deve permitir integração com assistentes de voz para prática oral. | BAIXA |
+| RF-005 | A plataforma deve oferecer um ambiente seguro e moderado | MÉDIA |
+| RF-006 | A aplicação deve permitir a personalização do ritmo de aprendizado para cada aluno. | MÉDIA |
+| RF-007 | O sistema deve disponibilizar fóruns ou comunidades para troca de experiências entre pais, professores e alunos. | BAIXA |
+| RF-008 | A plataforma deve permitir integração com assistentes de voz para prática oral. | BAIXA |
 
 ---
 
@@ -174,6 +166,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| Aplicação deve ser desenvolvida em HTML, CSS e JavaScript |
-|04| Escopo limitado de funcionalidades |
-|05| Manutenção e escalabilidades limitadas |
-
+|04| Projeto não inclui manutenção |
+|05| Sistema não será escalável |
