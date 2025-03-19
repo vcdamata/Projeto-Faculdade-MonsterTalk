@@ -98,12 +98,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 | EU COMO... `Aluna – Amanda Ferreira` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 |----------------------|----------------------------------|------------------------|
-|Aluna	| Acessar exercícios baseados em séries e músicas	| Aprender inglês de forma divertida e natural|
-|Aluna	| Praticar conversação | Perder o medo de falar inglês e melhorar a pronúncia|
-|Aluna	| Criar um plano de estudos personalizado	| Estudar de forma consistente e acompanhar meu progresso|
-|Aluna	| Aprender vocabulário dentro de contextos reais e com base no meu nível |	Memorizar palavras de forma natural sem precisar decorar listas|
-|Aluna	| Poder escolher conteúdos baseados nos meus interesses | Aprender com temas que gosto e tornar o estudo mais envolvente|
-|Aluna	| Ter exercícios rápidos e interativos	| Aproveitar pequenos momentos do dia para aprender sem precisar de longas aulas|
+|Aluna	| Acessar atividades progressivas organizadas por nível de dificuldade | Aprender de forma estruturada e natural, garantindo uma evolução contínua |
+|Aluna	| Receber recomendações de exercícios e conteúdos com base nas minhas dificuldades | Focar nos aspectos que preciso melhorar e otimizar meu tempo de estudo |
+|Aluna	| Criar um plano de estudos personalizado com flashcards, quizzes e desafios diarios	| Aprender inglês de forma divertida e consistente |
 
 ---
 
