@@ -106,27 +106,25 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Aluna	| Poder escolher conteúdos baseados nos meus interesses | Aprender com temas que gosto e tornar o estudo mais envolvente|
 |Aluna	| Ter exercícios rápidos e interativos	| Aproveitar pequenos momentos do dia para aprender sem precisar de longas aulas|
 
-#### Professores:
-|EU COMO... `Professora - Camila Oliveira`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Professora | Acessar materiais didáticos organizados por nível	           | Facilitar o planejamento das aulas e economizar tempo  |
-|Professora       | Criar atividades interativas para os alunos	    | Engajar os alunos e tornar o aprendizado mais dinâmico |
-|Professora       | Gerar relatórios de desempenho dos alunos		    | Avaliar a evolução individual e identificar dificuldades |
-|Professora       | Personalizar trilhas de aprendizado conforme o nível do aluno	 | Garantir que cada estudante avance no próprio ritmo |
+---
 
-#### Pais e responsáveis:
+### **Professores**  
+
+| EU COMO... `Professora - Camila Oliveira` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
+|--------------------|------------------------------------|----------------------------------------|
+| Professora | Acompanhar o progresso dos alunos através de um painel de desempenho | Identificar dificuldades e adaptar minhas estratégias de ensino |  
+| Professora | Criar atividades interativas para os alunos | Engajar os estudantes e tornar o aprendizado mais dinâmico |  
+| Professora | Participar de um fórum para compartilhar experiências com outros educadores | Melhorar minha prática pedagógica com troca de conhecimento |  
+
+---
+
+### **Pais e Responsáveis**  
 
 | EU COMO... `Mãe – Mariana Souza` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
-|----------------------|----------------------------------|------------------------|
-| Mãe preocupada com a educação dos filhos | Acompanhar o progresso do aprendizado dos meus filhos | Garantir que eles estejam evoluindo e identificar dificuldades rapidamente |
-| Mãe ocupada com trabalho e família | Receber notificações e relatórios automáticos sobre o desempenho dos meus filhos | Conseguir acompanhar a evolução deles mesmo com uma rotina agitada |
-| Mãe que busca métodos eficazes | Ter acesso a conteúdos organizados e estruturados por nível | Proporcionar um aprendizado progressivo e sem lacunas para meus filhos |
-| Mãe que valoriza o ensino bilíngue | Garantir que meus filhos pratiquem conversação no idioma | Ajudá-los a desenvolver confiança e fluência ao falar |
-| Mãe preocupada com o engajamento | Ter acesso a desafios e recompensas que motivem meus filhos a estudar | Evitar que percam o interesse e abandonem o aprendizado |
-| Mãe que quer segurança | Garantir que a plataforma seja segura e apropriada para a idade das crianças | Manter um ambiente confiável e livre de conteúdos inadequados |
-| Mãe que deseja um ensino personalizado | Ajustar as atividades conforme o ritmo e dificuldades dos meus filhos | Proporcionar um ensino mais eficiente e adaptado às necessidades individuais |
-| Mãe interessada na interação | Participar de uma comunidade de pais e professores | Compartilhar experiências e obter dicas sobre o ensino de idiomas |
-
+|----------------------|----------------------------------|------------------------| 
+| Mãe | Receber notificações e relatórios automáticos sobre o desempenho dos meus filhos | Conseguir acompanhar a evolução deles mesmo com uma rotina agitada |  
+| Mãe | Garantir que meus filhos pratiquem conversação no idioma | Ajudá-los a desenvolver confiança e fluência ao falar |  
+| Mãe | Participar de um fórum de pais e professores | Compartilhar experiências e obter dicas sobre o ensino de idiomas |  
 
 ## **Requisitos**  
 
