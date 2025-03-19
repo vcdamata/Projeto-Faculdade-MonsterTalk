@@ -118,8 +118,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 | EU COMO... `Mãe – Mariana Souza` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 |----------------------|----------------------------------|------------------------| 
+| Mãe | Facilidade para cadastrar meus filhos na plataforma de idiomas | Garantir que eles tenham acesso rápido e sem complicações ao aprendizado |  
 | Mãe | Receber notificações e relatórios automáticos sobre o desempenho dos meus filhos | Conseguir acompanhar a evolução deles mesmo com uma rotina agitada |  
-| Mãe | Garantir que meus filhos pratiquem conversação no idioma | Ajudá-los a desenvolver confiança e fluência ao falar |  
 | Mãe | Participar de um fórum de pais e professores | Compartilhar experiências e obter dicas sobre o ensino de idiomas |  
 
 ## **Requisitos**  
