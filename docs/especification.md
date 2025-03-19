@@ -80,15 +80,14 @@ Camila Oliveira
 - **Profissão:** Analista financeira
 
 ##### **Características Comportamentais**  
-- **Gostos pessoais:** Aprecia atividades culturais, livros e caminhadas. Apaixonada por educação e desenvolvimento infantil, sempre busca novas metodologias para estimular o aprendizado do filho.   
-- **Sensibilidade a preços:** Está disposta a pagar por soluções educacionais de qualidade, desde que tenham impacto real no desenvolvimento do filho. Prefere planos que ofereçam personalização e acompanhamento próximo.  
-- **Qualidade desejada em um produto:** Procura plataformas seguras, intuitivas e baseadas em metodologias eficazes.  
+- **Gostos pessoais:** Gosta de atividades culturais, leitura e caminhadas. Acredita que o aprendizado deve ser natural, aproveitando momentos do cotidiano como viagens e conversas em família.  
+- **Sensibilidade a preços:** Está disposta a investir em soluções educacionais de qualidade, mas busca opções que se adaptem à rotina da família e estimulem a autonomia. 
+- **Qualidade desejada em um produto:** Prefere plataformas intuitivas e seguras, que motivem seus filhos a aprender e os ajudem a desenvolver independência.  
 
 ##### **Critérios Psicográficos**  
-- **Personalidade:** Cuidadosa, detalhista e sempre envolvida no processo educacional do filho. Gosta de acompanhar cada etapa do aprendizado e garantir que o filho tenha uma base sólida para o futuro.  
-- **Estilo de vida:** Equilibra a vida profissional e familiar, sempre buscando tempo para atividades educativas. Prefere ferramentas que possam ser acessadas de qualquer lugar e que proporcionem um aprendizado contínuo.  
-- **Valores morais:** Acredita que a educação é a chave para um futuro promissor e que o aprendizado deve ser prazeroso e estimulante. Defende a importância do ensino bilíngue para ampliar oportunidades.  
-
+- **Personalidade:** Mariana acompanha a educação dos filhos com interesse, oferecendo orientação e permitindo liberdade para que eles se desenvolvam de forma independente. 
+- **Estilo de vida:** Mariana concilia trabalho e família, integrando o aprendizado dos filhos de forma natural e prática, sem complicações. Prefere soluções educativas simples e que se adaptem facilmente à sua rotina.  
+- **Valores morais:** Acredita que a educação deve ser prazerosa e fomenta a curiosidade. Valoriza o diálogo e a tomada de decisões desde cedo.
 ___________________________
 
 ## Histórias de Usuários
