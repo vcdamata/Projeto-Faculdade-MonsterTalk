@@ -77,5 +77,3 @@ Tela dedicada ao acompanhamento do desempenho do aluno. Apresenta palavras apren
 O painel do fórum é o espaço de interação entre alunos e professores. Nele, é possível compartilhar experiências, tirar dúvidas, criar publicações e interagir com comentários.
 
 ![Painel Fórum - Aluno](img/Userflow/%20Painel%20forum%20-%20Aluno.png)
-
----
