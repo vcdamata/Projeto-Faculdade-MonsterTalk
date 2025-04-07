@@ -62,32 +62,6 @@ Camila Oliveira
 
 - **Valores morais:** Acredita que o ensino de idiomas deve ser interativo e progressivo. Defende metodologias ativas e o uso da tecnologia para potencializar o aprendizado.
 
-### 3. Persona pais e responsáveis:
-#### **Persona: Mariana Souza – Mãe**
-
-<img src="./img/Personas/Mae_Mariana_Souza.png" alt="Persona da Mariana Souza – Mãe" height="100" />
-
-##### **Informações Sociodemográficas**  
-- **Nome:** Mariana Souza  
-- **Sexo:** Feminino  
-- **Idade:** 38 anos
-- **Estado civil:** Casada
-- **Filhos:** Gabriel (10 anos) e Sofia (14 anos)
-- **Classe social:** Classe média  
-- **Nacionalidade:** Brasileira  
-- **Localização:** Cuiabá, MT  
-- **Escolaridade:** Ensino superior completo
-- **Profissão:** Analista financeira
-
-##### **Características Comportamentais**  
-- **Gostos pessoais:** Gosta de atividades culturais, leitura e caminhadas. Acredita que o aprendizado deve ser natural, aproveitando momentos do cotidiano como viagens e conversas em família.  
-- **Sensibilidade a preços:** Está disposta a investir em soluções educacionais de qualidade, mas busca opções que se adaptem à rotina da família e estimulem a autonomia. 
-- **Qualidade desejada em um produto:** Prefere plataformas intuitivas e seguras, que motivem seus filhos a aprender e os ajudem a desenvolver independência.  
-
-##### **Critérios Psicográficos**  
-- **Personalidade:** Mariana acompanha a educação dos filhos com interesse, oferecendo orientação e permitindo liberdade para que eles se desenvolvam de forma independente. 
-- **Estilo de vida:** Mariana concilia trabalho e família, integrando o aprendizado dos filhos de forma natural e prática, sem complicações. Prefere soluções educativas simples e que se adaptem facilmente à sua rotina.  
-- **Valores morais:** Acredita que a educação deve ser prazerosa e fomenta a curiosidade. Valoriza o diálogo e a tomada de decisões desde cedo.
 ___________________________
 
 ## Histórias de Usuários
@@ -111,16 +85,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Professora | Acompanhar o progresso dos alunos através de um painel de desempenho | Identificar dificuldades e adaptar minhas estratégias de ensino |  
 | Professora | Criar atividades interativas para os alunos | Engajar os estudantes e tornar o aprendizado mais dinâmico |  
 | Professora | Participar de um fórum para compartilhar experiências com outros educadores | Melhorar minha prática pedagógica com troca de conhecimento |  
-
----
-
-### **Pais e Responsáveis**  
-
-| EU COMO... `Mãe – Mariana Souza` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
-|----------------------|----------------------------------|------------------------| 
-| Mãe | Facilidade para cadastrar meus filhos na plataforma de idiomas | Garantir que eles tenham acesso rápido e sem complicações ao aprendizado |  
-| Mãe | Receber notificações e relatórios automáticos sobre o desempenho dos meus filhos | Conseguir acompanhar a evolução deles mesmo com uma rotina agitada |  
-| Mãe | Participar de um fórum de pais e professores | Compartilhar experiências e obter dicas sobre o ensino de idiomas |  
 
 ## **Requisitos**  
 
