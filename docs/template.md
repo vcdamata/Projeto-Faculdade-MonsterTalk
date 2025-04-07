@@ -1,12 +1,8 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
-
 ## Design
+![Homepage](./template-site/homepage.png)
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 
 ## Cores
@@ -16,7 +12,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+![Fontes do site](./template-site/fontes.png)
 
 
 ## Iconografia
