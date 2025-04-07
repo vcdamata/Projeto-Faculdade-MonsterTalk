@@ -1,8 +1,10 @@
 # Template padrão do site
 
-## Design
+## Homepage Alunos
 ![Homepage](./template-site/homepage.png)
 
+## Homepage Professores
+![Homepage Professor](./template-site/homepageprofessor.jpg)
 
 
 ## Cores
