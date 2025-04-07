@@ -84,11 +84,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 | Professora | Acompanhar o progresso dos alunos através de um painel de desempenho | Identificar dificuldades e adaptar minhas estratégias de ensino |  
 | Professora | Criar atividades interativas para os alunos | Engajar os estudantes e tornar o aprendizado mais dinâmico |  
-| Professora | Participar de um fórum para compartilhar experiências com outros educadores | Melhorar minha prática pedagógica com troca de conhecimento |  
+| Professora | Participar de um fórum para tirar dúvidas dos alunos | Melhorar minha prática pedagógica com troca de conhecimento |  
 
-## **Requisitos**  
-
-As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.  
+---
 
 ### **Requisitos Funcionais**  
 
