@@ -135,7 +135,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-003 | O sistema deve disponibilizar atividades progressivas, divididas por nível de dificuldade. | ALTA |
 | RF-004 | A plataforma deve incluir quizzes, flashcards e desafios interativos para reforçar o aprendizado. | MÉDIA |
 | RF-005 | A plataforma deve fornecer sugestões de atividades personalizadas | MÉDIA |
-| RF-006 | O sistema deve disponibilizar fóruns entre professores e alunos com o intuito de discutir assuntos e sanar dúvidas pertinente ao conteúdo. | Baixa  |
+| RF-006 | O sistema deve disponibilizar fóruns entre professores e alunos com o intuito de discutir assuntos e sanar dúvidas pertinente ao conteúdo. | BAIXA  |
 
 ---
 
