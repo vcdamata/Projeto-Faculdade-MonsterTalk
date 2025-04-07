@@ -43,4 +43,4 @@ Alunos (6 a 17 anos): Crianças e adolescentes do ensino fundamental e médio qu
 
 Professores: Educadores que buscam materiais didáticos organizados e ferramentas para apoiar o ensino de idiomas. O MonsterTalk pode ser usado como complemento às aulas tradicionais, fornecendo conteúdos progressivos e atividades interativas para os alunos.
 
-Pais e Responsáveis: Muitos pais desejam acompanhar o desenvolvimento linguístico de seus filhos, mas encontram dificuldades para encontrar materiais adequados. A plataforma fornecerá ferramentas que os ajudem a monitorar o progresso dos alunos e incentivar a prática do idioma em casa.
+
