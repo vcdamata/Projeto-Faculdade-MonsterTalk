@@ -18,6 +18,9 @@
 ## Iconografia
 
 ![Icons](./template-site/icons.png)
+
+## Logos
+
 ![logos](./template-site/logos.png)
 
 
