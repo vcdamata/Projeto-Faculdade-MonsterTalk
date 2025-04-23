@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/sidebar.css" />
+    <link rel="stylesheet" href="../styles/dashboard_professor.css" />
     <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
     <title>Painel do professor - MonsterTalk</title>
   </head>
@@ -103,5 +104,171 @@
       </nav>
     </aside>
     <!-- Fim Sidebar -->
+
+    <!-- Conteúdo Principal -->
+    <main class="painel">
+      <header class="top-bar">
+        <h1>Painel do<br />Professor</h1>
+        <div class="barra-controles">
+          <label for="turma">Selecionar classe:</label>
+          <select id="turma">
+            <option>Turma do barulho</option>
+            <option>Turma 2</option>
+          </select>
+          <div class="contador">Alunos <span>04</span></div>
+          <div class="contador">Classes <span>01</span></div>
+        </div>
+      </header>
+      <div class="tabelas">
+        <div class="tabela-box">
+          <h2>Tempo médio gasto por aluno</h2>
+          <div class="tabela-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Classificação</th>
+                  <th>Aluno</th>
+                  <th>Tempo Médio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>Nome_Aluno 01</td>
+                  <td>02:10</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>Nome_Aluno 02</td>
+                  <td>01:15</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>Nome_Aluno 03</td>
+                  <td>00:40</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>Nome_Aluno 04</td>
+                  <td>00:06</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tabela-box">
+          <h2>Exercícios realizados por aluno</h2>
+          <div class="tabela-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Classificação</th>
+                  <th>Aluno</th>
+                  <th>Exercícios</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>Nome_Aluno 01</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>Nome_Aluno 02</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>Nome_Aluno 03</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>Nome_Aluno 04</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tabela-box">
+          <h2>Pontos Fortes</h2>
+          <div class="tabela-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Classificação</th>
+                  <th>Exercicio</th>
+                  <th>Erros</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>00-6</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>03-1</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>02-2</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>03-2</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tabela-box">
+          <h2>Pontos Fracos</h2>
+          <div class="tabela-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Classificação</th>
+                  <th>Exercicio</th>
+                  <th>Erros</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>00-1</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>03-7</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>02-1</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>03-4</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Conteúdo Principal -->
   </body>
 </html>
