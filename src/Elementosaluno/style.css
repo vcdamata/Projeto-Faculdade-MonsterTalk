@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo&display=swap');
+
+body {
+  font-family: 'Baloo', cursive;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header.continue {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  gap: 20px;
+  height: 300px;
+}
+
+.monster-icon {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+}
+
+.card {
+  width: 256px;
+  height: 256px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
