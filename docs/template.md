@@ -1,26 +1,26 @@
 # Template padrão do site
 
 ## Homepage Alunos
-![Homepage](./template-site/homepage.png)
+![Homepage](./img/template-site/dashboard_aluno.png)
 
 ## Homepage Professores
-![Homepage Professor](./template-site/homepageprofessor.jpg)
+![Homepage Professor](./img/template-site/dashboard_professor.png)
 
 
 ## Cores
 
-![Paleta de cores](./img/Paleta%20de%20cores.png)
+![Paleta de cores](./img/template-site/Paleta%20de%20cores.png)
 
 
 ## Tipografia
 
-![Fontes do site](./template-site/fontes.png)
+![Fontes do site](./img/template-site/fontes.png)
 
 
 ## Iconografia
 
-![Icons](./template-site/icons.png)
+![Icons](./img/template-site/icons.png)
 
 ## Logos
 
-![logos](./template-site/logos.png)
+![logos](./img/template-site/logos.png)
