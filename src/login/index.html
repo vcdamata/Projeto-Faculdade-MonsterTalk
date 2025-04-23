@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - MonsterTalk - Espantando o medo e soltando a voz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
+  </head>
+  <body>
+    <!-- Lateral esquerda -->
+    <img
+      src="../img/bg_left.svg"
+      alt="fundo esquerdo"
+      class="bg-lateral bg-left"
+    />
+
+    <!-- Lateral direita -->
+    <img
+      src="../img/bg_right.svg"
+      alt="fundo direito"
+      class="bg-lateral bg-right"
+    />
+    <header class="topbar">
+      <img
+        src="../img/logo_slogan.svg"
+        alt="Mascote MonsterTalk"
+        class="logo"
+      />
+    </header>
+
+    <main class="container">
+      <form action="login" method="POST">
+        <div class="line_form">
+          <label for="username">Usuário:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="line_form">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+      </form>
+    </main>
+
+    <div class="buttons">
+      <button
+        type="button"
+        class="cadastrar"
+        onclick="location.href='../cadastro/'"
+      >
+        Inscrever-se
+      </button>
+      <button type="submit" class="entrar">Entrar</button>
+    </div>
+
+    <footer>
+      © 2025 MonsterTalk — Projeto Sistemas de informação PucMinas 01/2025
+    </footer>
+  </body>
+</html>
