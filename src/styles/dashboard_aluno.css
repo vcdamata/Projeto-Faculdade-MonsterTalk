@@ -1,0 +1,176 @@
+body {
+  background-color: #FDF6EB;
+  font-family: 'Baloo 2', sans-serif;
+  margin: 0;
+  padding: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  margin: 70px 0 0 300px;
+  box-shadow: 0px 0px 8px #30303030;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+.dashboard-aluno {
+  padding: 20px;
+}
+
+.continue-licao {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.continue-licao img {
+  width: 200px;
+  height: 200px;
+}
+
+.continue-licao img:hover {
+  transform: scale(1.05) rotate(-5deg);
+  transition: transform 0.2s ease-in;
+  cursor: pointer;
+}
+
+.continue-licao h2 {
+  font-size: 24px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 10px;
+  max-width: 100%;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+/* Sugestões */
+.sugestao.roxo {
+  background-color: #8E44AD;
+  color: white;
+}
+
+.sugestao.verde {
+  background-color: #27AE60;
+  color: white;
+}
+
+.sugestao.rosa {
+  background-color: #E91E63;
+  color: white;
+}
+
+.sugestao.azul {
+  background-color: #3498DB;
+  color: white;
+}
+
+.sugestao.laranja {
+  background-color: #F39C12;
+  color: white;
+}
+
+.sugestao.amarelo {
+  background-color: #F1C40F;
+  color: white;
+}
+
+.sugestao.roxo-claro {
+  background-color: #BB8FCE;
+  color: white;
+}
+
+.sugestao.verde-claro {
+  background-color: #58D68D;
+  color: white;
+}
+
+/* Níveis */
+.card.basico {
+  background-color: #A7D8F8; /* azul claro */
+  color: #000;
+}
+
+.card.intermediario {
+  background-color: #B8E9C0; /* verde claro */
+  color: #000;
+}
+
+.card.avancado {
+  background-color: #D4C2F0; /* roxo claro */
+  color: #000;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 9px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 70px 0 0 0;
+    box-shadow: 0px 0px 8px #30303030;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  section {
+    margin-top: 10px;
+  }
+
+  .sugestoes {
+    padding: auto;
+  }
+
+  .card {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    word-break: normal;
+    font-size: 14px;
+  }
+}
