@@ -1,0 +1,116 @@
+body.cadastro-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #FDF6EB;
+  color: #5C35E8;
+  font-family: 'Baloo 2', sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bg-lateral {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: auto;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.bg-left {
+  left: 0;
+}
+
+.bg-right {
+  right: 0;
+}
+
+.logo {
+  margin-bottom: 90px;
+  width: 600px;
+}
+
+.cadastro-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+label {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 20px;
+  width: 90px;
+}
+
+.campo_formulario {
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #5C35E8;
+  box-shadow: inset 1px  1px 8px 0px #5c35e844;
+  width: 300px
+}
+
+.line_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 900px;
+}
+
+.radio-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-buttons label {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 20px;
+  width: auto;
+}
+
+.radio-select{
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  margin-right: 20px;
+ }
+
+
+ .cadastrar {
+  color: white;
+  background-color: #FF66C4;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  width: 300px;
+  height: 60px;
+  font-weight: bold;
+  margin: 60px;
+}
+
+.cadastrar:hover {
+  background-color: #5C35E8;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  transform: scale(1.05);
+}

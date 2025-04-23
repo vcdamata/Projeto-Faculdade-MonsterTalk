@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro - MonsterTalk - Espantando o medo e soltando a voz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/cadastro.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
+  </head>
+  <body class="cadastro-page">
+    <!-- Lateral esquerda -->
+    <img
+      src="../img/bg_left.svg"
+      alt="fundo esquerdo"
+      class="bg-lateral bg-left"
+    />
+
+    <!-- Lateral direita -->
+    <img
+      src="../img/bg_right.svg"
+      alt="fundo direito"
+      class="bg-lateral bg-right"
+    />
+
+    <header class="topbar">
+      <img
+        src="../img/logo_horizontal.svg"
+        alt="Mascote MonsterTalk"
+        class="logo"
+      />
+    </header>
+    <main class="cadastro-container">
+      <form action="cadastro" method="POST">
+        <div class="line_form">
+          <label for="email">E-mail:</label>
+          <input
+            class="campo_formulario"
+            type="text"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="line_form">
+          <label for="username">Usuário:</label>
+          <input
+            class="campo_formulario"
+            type="text"
+            id="username"
+            name="username"
+            required
+          />
+        </div>
+        <div class="line_form">
+          <label for="password">Senha:</label>
+          <input
+            class="campo_formulario"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+        <h3>Como gostaria de prosseguir com seu cadastro?</h3>
+        <div class="radio-buttons">
+          <label for="aluno">Aluno</label>
+          <input
+            type="radio"
+            id="aluno"
+            name="tipo_usuario"
+            value="aluno"
+            class="radio-select"
+          />
+          <label for="professor">Professor</label>
+          <input
+            type="radio"
+            id="professor"
+            name="tipo_usuario"
+            value="professor"
+            class="radio-select"
+          />
+        </div>
+
+        <button type="submit" class="cadastrar">Cadastrar</button>
+      </form>
+    </main>
+  </body>
+</html>
