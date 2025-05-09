@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/sidebar.css" />
     <link rel="stylesheet" href="../styles/dashboard_professor.css" />
-    {/* Abaixo está o link alterado para o novo nome do arquivo CSS */}
     <link rel="stylesheet" href="../styles/dashboard_professor_alunos.css" />
     <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
     <title>Alunos - MonsterTalk</title>
@@ -102,7 +101,7 @@
                 <td>28/03/2025</td>
                 <td>Turma do barulho</td>
                 <td class="acoes">
-                  <button class="btn-acao btn-editar">Editar</button>
+                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Marilyn%20Monroe&turma=turma_do_barulho" class="btn-acao btn-editar">Editar</a>
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -111,7 +110,7 @@
                 <td>28/03/2025</td>
                 <td>Turma do barulho</td>
                 <td class="acoes">
-                  <button class="btn-acao btn-editar">Editar</button>
+                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Bob%20Marley&turma=turma_do_barulho" class="btn-acao btn-editar">Editar</a>
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -120,7 +119,7 @@
                 <td>15/04/2025</td>
                 <td>English Monsters</td>
                 <td class="acoes">
-                  <button class="btn-acao btn-editar">Editar</button>
+                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Enzo%20Gabriel&turma=english_monsters" class="btn-acao btn-editar">Editar</a>
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -129,7 +128,7 @@
                 <td>10/01/2025</td>
                 <td>English Monsters</td>
                 <td class="acoes">
-                  <button class="btn-acao btn-editar">Editar</button>
+                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Valentina%20dos%20Santos&turma=english_monsters" class="btn-acao btn-editar">Editar</a>
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -140,15 +139,34 @@
     </main>
 
     <script>
-      const hamburger = document.querySelector(".hamburger");
-      const sidebar = document.querySelector(".sidebar");
+      document.addEventListener('DOMContentLoaded', function() {
+        const studentUpdates = JSON.parse(localStorage.getItem('studentUpdates'));
 
-      if (hamburger && sidebar) {
-        hamburger.addEventListener("click", () => {
-          const isActive = sidebar.classList.toggle("active");
-          hamburger.setAttribute("aria-expanded", isActive);
-        });
-      }
+        if (studentUpdates) {
+          const tableRows = document.querySelectorAll('main.painel table tbody tr');
+          tableRows.forEach(row => {
+            const nomeTd = row.querySelector('td:nth-child(1)'); // Coluna Nome é a primeira
+            const turmaTd = row.querySelector('td:nth-child(3)'); // Coluna Classe é a terceira
+
+            if (nomeTd && turmaTd) {
+              const nomeAlunoNaTabela = nomeTd.textContent.trim();
+              if (studentUpdates[nomeAlunoNaTabela]) {
+                turmaTd.textContent = studentUpdates[nomeAlunoNaTabela];
+              }
+            }
+          });
+        }
+
+        const hamburger = document.querySelector(".hamburger");
+        const sidebar = document.querySelector(".sidebar");
+
+        if (hamburger && sidebar) {
+          hamburger.addEventListener("click", () => {
+            const isActive = sidebar.classList.toggle("active");
+            hamburger.setAttribute("aria-expanded", isActive);
+          });
+        }
+      });
     </script>
   </body>
 </html>
