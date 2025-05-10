@@ -114,18 +114,47 @@
           <h1>Administrar Alunos </h1>
           </div>
       </header>
+
+      <!--ADICIONAR ALUNO-->
+        <section class="editar-aluno-container">
+          <label class="titulo-editar-aluno">Adicionar Aluno</label>
+          </section> 
 <!-- NOME -->
 
-      <div> 
-      <section class="editar-aluno-container">
+        <section class="editar-aluno-container">
         <label class="titulo-editar-aluno">Nome</label>
-      </div>  
+        </section>  
 
 <!-- CLASSE -->
-       <div> 
+       <section>
         <label for="titulo-editar-aluno">Classe </label>
         <select id="select-turma" name="turma" class="select-turma-estilizado">   
            <option value="turma_do_barulho">Turma do Barulho</option>
            <option value="english_monsters">English Monsters</option>
-           <options value="outra_turma">Outra Turma</options>
-       </div>
+           <option value="outra_turma">Outra Turma</option>
+        </select>
+       </section>
+
+       <!-- LISTA DE ALUNOS CADASTADOS-->
+    
+       <section class="lista-alunos">
+        <h2>Lista de Alunos Cadastrados</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Opções</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bob Marley</td>
+              <td><button>Excluir</button></td>
+            </tr>
+            <tr>
+              <td>Merilyn Monroe</td>
+              <td><button>Excluir</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
