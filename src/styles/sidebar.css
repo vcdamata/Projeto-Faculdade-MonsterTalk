@@ -1,3 +1,4 @@
+/* Sidebar geral */
 .sidebar {
   position: fixed;
   z-index: 2;
@@ -13,67 +14,69 @@
   box-shadow: #30303030 0px 0px 10px 0px;
 }
 
+/* Cabeçalho da sidebar */
 .sidebar-header {
   padding: 20px;
 }
 
+/* Logo no topo */
 .logo_horizontal {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
-ul {
+/* Lista da sidebar */
+.sidebar ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
+/* Removemos os estilos do <li>, agora o <a> recebe tudo */
 .sidebar li {
-  padding-left: 30px;
-  background-color: #644BBE;
-  box-shadow: 0 2px 4px #ccc;
-  transition: background-color 0.3s ease;
-  font-weight: bold;
-  text-align: center;
-  width: 300px;
-  height: 60px;
-  text-decoration: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+/* Estilo padrão dos links da sidebar, exceto o do logo */
+.sidebar a:not(.logo-link) {
   display: flex;
   justify-content: baseline;
   align-items: center;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-.sidebar li:hover {
-  background-color: #FF66C4;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.04);
-}
-.sidebar li.active {
-  background-color: #FF66C4;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.04);
-}
-
-.sidebar a {
-  margin: 10px 0;
+  padding-left: 30px;
+  background-color: #644BBE;
+  box-shadow: 0 2px 4px #ccc;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 60px;
   text-decoration: none;
   font-family: 'Baloo 2', sans-serif;
   color: #ffffff;
   font-size: 24px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
+/* Hover e ativo, exceto logo */
+.sidebar a:not(.logo-link):hover,
+.sidebar a:not(.logo-link).active {
+  background-color: #FF66C4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
+}
+
+/* Ícones */
 .icon_menu {
   margin-right: 10px;
   height: 30px;
 }
 
+/* Botão hamburger */
 .hamburger {
   display: none;
   position: fixed;
@@ -87,9 +90,7 @@ ul {
   color: #644BBE;
 }
 
-
-/*  Responsivo */
-
+/* Responsividade */
 @media (max-width: 768px) {
   .sidebar {
     transform: translateX(-100%);
@@ -110,4 +111,3 @@ ul {
     width: 100%;
   }
 }
-
