@@ -80,11 +80,10 @@
 .hamburger {
   display: none;
   position: fixed;
-  top: 20px;
-  right: 20px;
   z-index: 1001;
   font-size: 2rem;
-  background: none;
+  border-radius: 8px;
+  padding: 2px 7px;
   border: none;
   cursor: pointer;
   color: #644BBE;
@@ -99,12 +98,17 @@
     z-index: 1000;
   }
 
-  .sidebar.active {
-    transform: translateX(0);
+  .sidebar.active_menu {
+  transform: translateX(0);
   }
 
+  .sidebar-header {
+  margin-top: 60px;
+  }
   .hamburger {
     display: block;
+    background-color: #644BBE;
+    color: white;
   }
 
   .sidebar li {

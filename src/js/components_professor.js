@@ -49,11 +49,38 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadComponent("header", "../components/header_professor.html");
   await loadComponent("sidebar", "../components/sidebar_professor.html");
 
-  // Aguarde um pequeno tempo para garantir que os elementos da sidebar foram inseridos
+  // Aguarde um pequeno tempo para garantir que os elementos foram carregados
   setTimeout(() => {
     marcarLinkAtivo();
+
+    const hamburger = document.getElementById("hamburgerBtn");
+    const sidebarWrapper = document.getElementById("sidebar");
+    const sidebar = sidebarWrapper.querySelector(".sidebar");
+
+    hamburger.addEventListener("click", function () {
+      if (sidebar) {
+        sidebar.classList.toggle("active_menu");
+
+        // Alterna ícone ☰ ↔ X
+        if (sidebar.classList.contains("active_menu")) {
+          hamburger.innerHTML = "✕";
+        } else {
+          hamburger.innerHTML = "☰";
+        }
+      }
+    });
+
+    // (Opcional) Fecha menu ao clicar em qualquer link da sidebar no mobile
+    const sidebarLinks = sidebar.querySelectorAll("a");
+    sidebarLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 768) {
+          sidebar.classList.remove("active_menu");
+          hamburger.innerHTML = "☰";
+        }
+      });
+    });
+
   }, 50);
 });
-
-
 
