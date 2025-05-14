@@ -8,11 +8,13 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
   height: 100%;
   margin: 70px 0 0 300px;
   box-shadow: 0px 0px 8px #30303030;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -20,6 +22,7 @@ main {
 
 .top-bar {
   background-color: #6c40d4;
+  width:100%;
   color: white;
   padding: 0 20px;
   display: flex;
@@ -73,7 +76,7 @@ main {
   padding: 2px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content:space-between;
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
@@ -85,6 +88,7 @@ main {
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   border: 1px solid #ccc;
+  width: 44%;
   min-width: 400px;
 }
 
