@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/sidebar.css" />
     <link rel="stylesheet" href="../styles/dashboard_professor.css" />
+    <link rel="stylesheet" href="../styles/dashboard_professor_classes.css" />
     <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
     <title>Painel do professor - MonsterTalk</title>
   </head>
@@ -133,40 +134,44 @@
           <h2 class="titulo-editar-aluno">Adicionar Aluno</h2>
           </section> 
 <!-- NOME -->
-
         <section class="editar-aluno-container">
         <label class="titulo-editar-aluno">Nome</label>
+        <input type="text" id="Nome">
         </section>  
+      
 
 <!-- CLASSE -->
        <section>
         <label for="titulo-editar-aluno">Classe </label>
-        <select id="select-turma" name="turma" class="select-turma-estilizado">   
+        <select id="turma" name="turma" class="select-turma">
            <option value="turma_do_barulho">Turma do Barulho</option>
            <option value="english_monsters">English Monsters</option>
            <option value="outra_turma">Outra Turma</option>
-        </select>
+           </select>
        </section>
-
-       <!-- LISTA DE ALUNOS CADASTADOS-->
-    
-       <div class="classescadast"><h2>Lista de alunos cadastradas</h2></div> <!--class ok-->
-
-    <div class="Classefuncao"> <!--class ok-->
-        <table class="table"> <!--class ok-->
+       <section class="listclasses">
+        <div class="classescadast"><h2>Lista de alunos cadastradas</h2></div>
+        <div class="Classefuncao"></div>
+        <table class="table"> 
           <tr>
           <th><H3>Nome</H3></th>
+          <div> </div>
           <th><H3>Opções</H3></th>
           </tr>
           <tr>
             <td>Bob Marley</td>
-            <td><button class="button2">Excluir</button></td> <!--class ok-->
+            <td><button class="button2">Excluir</button>
+                <button class="button2">Editar</button>
+            </td> 
           </tr>
           <tr>
             <td>Merilyn Monroe</td>
-            <td><button class="button2">Excluir</button></td> <!--class ok-->
+            <td><button class="button2">Excluir</button>
+                 <button class="button2">Editar</button>
+                </td>
           </tr>
-  </section>
+        </section>
 </main>
 </body>
 </html>
+
