@@ -20,7 +20,7 @@ body.cadastro-page {
   height: 100vh;
   width: auto;
   object-fit: cover;
-  z-index: 0;
+  z-index: -1;
 }
 
 .bg-left {

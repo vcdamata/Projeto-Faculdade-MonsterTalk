@@ -14,41 +14,6 @@
       "senha": "123456",
       "tipo": "aluno",
       "professorId": 1
-    },
-    {
-      "id": "50dd",
-      "email": "andre@email.com",
-      "nome": "andre",
-      "senha": "pipoca",
-      "tipo": "aluno"
-    },
-    {
-      "id": "2768",
-      "email": "sdf@email.com",
-      "nome": "sdf",
-      "senha": "s",
-      "tipo": "professor"
-    },
-    {
-      "id": "c5d1",
-      "email": "andre.bacelar@sga.pucminas.br",
-      "nome": "as",
-      "senha": "as",
-      "tipo": "aluno"
-    },
-    {
-      "id": "f66f",
-      "email": "assistant@example.com",
-      "nome": "André",
-      "senha": "111",
-      "tipo": "aluno"
-    },
-    {
-      "id": "a7c4",
-      "email": "andre.bacelar@222.pucminas.br",
-      "nome": "sdss",
-      "senha": "Pipoca12",
-      "tipo": "aluno"
     }
   ]
 }
