@@ -38,37 +38,69 @@
         <ul>
           <li>
             <a href="#">
-              <img src="../img/icon_painel.svg" alt="icone painel professor" class="icon_menu" /> Painel
+              <img
+                src="../img/icon_painel.svg"
+                alt="icone painel professor"
+                class="icon_menu"
+              />
+              Painel
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="../img/icon_classe.svg" alt="icone classes" class="icon_menu" /> Classes
+              <img
+                src="../img/icon_classe.svg"
+                alt="icone classes"
+                class="icon_menu"
+              />
+              Classes
             </a>
           </li>
           <li class="active">
             <a href="#">
-              <img src="../img/icon_alunos.svg" alt="icone Alunos" class="icon_menu" /> Alunos
+              <img
+                src="../img/icon_alunos.svg"
+                alt="icone Alunos"
+                class="icon_menu"
+              />
+              Alunos
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="../img/icon_curriculo.svg" alt="icone Currículo" class="icon_menu" /> Currículo
+              <img
+                src="../img/icon_curriculo.svg"
+                alt="icone Currículo"
+                class="icon_menu"
+              />
+              Currículo
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="../img/icon_licoes.svg" alt="icone Lições" class="icon_menu" /> Criar Lições
+              <img
+                src="../img/icon_licoes.svg"
+                alt="icone Lições"
+                class="icon_menu"
+              />
+              Criar Lições
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="../img/icon_forum.svg" alt="icone Fórum" class="icon_menu" /> Fórum
+              <img
+                src="../img/icon_forum.svg"
+                alt="icone Fórum"
+                class="icon_menu"
+              />
+              Fórum
             </a>
           </li>
         </ul>
       </nav>
-      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">&#9776;</button>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        &#9776;
+      </button>
     </aside>
 
     <main class="painel">
@@ -80,7 +112,9 @@
       </header>
 
       <div class="add-aluno-container">
-        <button id="btnAddNovoAluno" class="btn-principal">Adicionar Novo Aluno +</button>
+        <button id="btnAddNovoAluno" class="btn-principal">
+          Adicionar Novo Aluno +
+        </button>
       </div>
 
       <section class="lista-alunos-section">
@@ -101,7 +135,11 @@
                 <td>28/03/2025</td>
                 <td>Turma do barulho</td>
                 <td class="acoes">
-                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Marilyn%20Monroe&turma=turma_do_barulho" class="btn-acao btn-editar">Editar</a>
+                  <a
+                    href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Marilyn%20Monroe&turma=turma_do_barulho"
+                    class="btn-acao btn-editar"
+                    >Editar</a
+                  >
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -110,7 +148,11 @@
                 <td>28/03/2025</td>
                 <td>Turma do barulho</td>
                 <td class="acoes">
-                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Bob%20Marley&turma=turma_do_barulho" class="btn-acao btn-editar">Editar</a>
+                  <a
+                    href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Bob%20Marley&turma=turma_do_barulho"
+                    class="btn-acao btn-editar"
+                    >Editar</a
+                  >
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -119,7 +161,11 @@
                 <td>15/04/2025</td>
                 <td>English Monsters</td>
                 <td class="acoes">
-                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Enzo%20Gabriel&turma=english_monsters" class="btn-acao btn-editar">Editar</a>
+                  <a
+                    href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Enzo%20Gabriel&turma=english_monsters"
+                    class="btn-acao btn-editar"
+                    >Editar</a
+                  >
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -128,7 +174,11 @@
                 <td>10/01/2025</td>
                 <td>English Monsters</td>
                 <td class="acoes">
-                  <a href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Valentina%20dos%20Santos&turma=english_monsters" class="btn-acao btn-editar">Editar</a>
+                  <a
+                    href="../dashboard_professor_alunos_editar/editar_aluno.html?nome=Valentina%20dos%20Santos&turma=english_monsters"
+                    class="btn-acao btn-editar"
+                    >Editar</a
+                  >
                   <button class="btn-acao btn-excluir">Excluir</button>
                 </td>
               </tr>
@@ -139,14 +189,18 @@
     </main>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const studentUpdates = JSON.parse(localStorage.getItem('studentUpdates'));
+      document.addEventListener("DOMContentLoaded", function () {
+        const studentUpdates = JSON.parse(
+          localStorage.getItem("studentUpdates")
+        );
 
         if (studentUpdates) {
-          const tableRows = document.querySelectorAll('main.painel table tbody tr');
-          tableRows.forEach(row => {
-            const nomeTd = row.querySelector('td:nth-child(1)'); // Coluna Nome é a primeira
-            const turmaTd = row.querySelector('td:nth-child(3)'); // Coluna Classe é a terceira
+          const tableRows = document.querySelectorAll(
+            "main.painel table tbody tr"
+          );
+          tableRows.forEach((row) => {
+            const nomeTd = row.querySelector("td:nth-child(1)"); // Coluna Nome é a primeira
+            const turmaTd = row.querySelector("td:nth-child(3)"); // Coluna Classe é a terceira
 
             if (nomeTd && turmaTd) {
               const nomeAlunoNaTabela = nomeTd.textContent.trim();

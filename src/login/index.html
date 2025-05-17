@@ -10,57 +10,72 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/login.css" />
-    <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
+    <link rel="stylesheet" href="/src/styles/login.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
   </head>
   <body>
     <!-- Lateral esquerda -->
     <img
-      src="../img/bg_left.svg"
+      src="/src/img/bg_left.svg"
       alt="fundo esquerdo"
       class="bg-lateral bg-left"
     />
 
     <!-- Lateral direita -->
     <img
-      src="../img/bg_right.svg"
+      src="/src/img/bg_right.svg"
       alt="fundo direito"
       class="bg-lateral bg-right"
     />
     <header class="topbar">
       <img
-        src="../img/logo_slogan.svg"
+        src="/src/img/logo_slogan.svg"
         alt="Mascote MonsterTalk"
         class="logo"
       />
     </header>
 
     <main class="container">
-      <form action="login" method="POST">
-        <div class="line_form">
-          <label for="username">Usuário:</label>
-          <input type="text" id="username" name="username" required />
+      <form id="loginForm">
+        <div class="campos_login">
+          <div class="line_form">
+            <label for="email">Usuário (E-mail):</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="line_form">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required />
+          </div>
         </div>
-        <div class="line_form">
-          <label for="password">Senha:</label>
-          <input type="password" id="password" name="password" required />
+
+        <div class="buttons">
+          <button
+            type="button"
+            class="cadastrar"
+            onclick="location.href='/src/cadastro/'"
+          >
+            Inscrever-se
+          </button>
+          <button type="submit" class="entrar">Entrar</button>
         </div>
+
+        <p
+          id="erro"
+          style="
+            color: red;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+          "
+        ></p>
       </form>
     </main>
 
-    <div class="buttons">
-      <button
-        type="button"
-        class="cadastrar"
-        onclick="location.href='../cadastro/'"
-      >
-        Inscrever-se
-      </button>
-      <button type="submit" class="entrar">Entrar</button>
-    </div>
-
     <footer>
-      © 2025 MonsterTalk — Projeto Sistemas de informação PucMinas 01/2025
+      © 2025 MonsterTalk — Projeto Sistemas de Informação PUC Minas 01/2025
     </footer>
+
+    <!-- scripts -->
+    <script src="/src/js/login.js"></script>
   </body>
 </html>

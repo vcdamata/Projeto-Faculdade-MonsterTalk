@@ -1,0 +1,19 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Maria da Silva",
+      "email": "maria@escola.com",
+      "senha": "123456",
+      "tipo": "professor"
+    },
+    {
+      "id": 2,
+      "nome": "João Pedro",
+      "email": "joao@aluno.com",
+      "senha": "123456",
+      "tipo": "aluno",
+      "professorId": 1
+    }
+  ]
+}
