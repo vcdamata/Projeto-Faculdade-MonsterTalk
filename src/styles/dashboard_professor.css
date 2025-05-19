@@ -185,12 +185,7 @@ tbody tr:last-child td {
   width: 400px;
   height: 60px;
 }
-.Classefuncao { /* ok */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-weight: bold;
-}
+
 #turma {
   align-items: center;
   width: 400px;
@@ -220,7 +215,7 @@ tbody tr:last-child td {
 
 }
 
-.button2 {
+.button2.1 {
   width: 77px;
   height: 24px;
   cursor: pointer;
@@ -228,3 +223,193 @@ tbody tr:last-child td {
   border-radius: 8px;
   margin-right: 15px;
 }
+
+.editar-aluno-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.titulo-editar-aluno {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.info-aluno-selecionado,
+.form-trocar-classe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  max-width: 500px;
+  padding: 10px 0;
+}
+
+.label-info {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #444;
+  min-width: 180px;
+  text-align: right;
+}
+
+.nome-aluno-display {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.nome-aluno-display,
+.select-turma-estilizado {
+  font-size: 1rem;
+  width: 100%;
+}
+
+.info-aluno-selecionado,
+  .form-trocar-classe {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    max-width: 100%;
+    padding: 5px;
+  }
+
+.select-turma-estilizado {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1rem;
+  min-width: 200px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.secao-confirmacao {
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.texto-confirmacao {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.grupo-botoes-confirmacao {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-nao {
+  padding: 8px 16px;
+  font-size: 1.5rem; 
+}
+
+.btn-sim {
+  padding: 8px 16px;
+  font-size: 1.5rem; 
+}
+.select-turma-estilizado:focus {
+  outline: none;
+  border-color: #6c40d4;
+  box-shadow: 0 0 0 2px rgba(108, 64, 212, 0.2);
+  
+  @media (max-width: 768px) {
+    .titulo-editar-aluno {
+      font-size: 1.5rem;
+    }
+  
+    .info-aluno-selecionado,
+    .form-trocar-classe {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+      max-width: 100%;
+      padding: 5px;
+    }
+  
+    .label-info1 {
+      min-width: auto;
+      text-align: left;
+      font-size: 1rem;
+    }
+  
+    .nome-aluno-display,
+    .select-turma-estilizado {
+      font-size: 1rem;
+      width: 100%;
+    }
+  
+    .texto-confirmacao {
+      font-size: 1.1rem;
+    }
+
+    .newclass { /* ok */
+      display:flex;
+      justify-content: center;
+  }
+  
+  .selection {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .nameclas {
+      font-size: 32px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  input {
+      width: 400px;
+      height: 60px;
+      border: none;
+  }
+  
+  .buttonadd {
+      font-size: 15px;
+      border-radius: 20px;
+      width: 400px;
+      height: 60px;
+  }
+  
+  .table, th, td { /* ok */
+      border: none;
+      border-collapse: collapse;
+  }
+  
+  .table { /* ok */
+      background-color: white;
+      color: black;
+  }
+  
+  .classescadast { /* ok */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .Classefuncao { /* ok */
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-weight: bold;
+  }
+  
+  .button2 { /* ok */
+      width: 77px;
+      height: 24px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-right: 15px;
+      align-items: center;
+  }
