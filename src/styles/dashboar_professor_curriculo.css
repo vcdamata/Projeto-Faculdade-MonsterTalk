@@ -1,0 +1,135 @@
+.adicionar-aula-curriculo,
+.aulas-do-curriculo {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.adicionar-aula-curriculo h3,
+.aulas-do-curriculo h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.75rem;
+}
+
+.form-adicionar-aula {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-adicionar-aula .form-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-adicionar-aula label {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #444;
+}
+
+.form-adicionar-aula input[type="text"],
+.form-adicionar-aula select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1rem;
+  background-color: #fff;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.form-adicionar-aula input[type="text"]:focus,
+.form-adicionar-aula select:focus {
+  outline: none;
+  border-color: #6c40d4;
+  box-shadow: 0 0 0 2px rgba(108, 64, 212, 0.2);
+}
+
+.btn-adicionar-aula {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+.lista-niveis { 
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nivel-item { 
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+
+.nivel-item h4 { 
+  font-size: 1.2rem;
+  color: #6c40d4;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.lista-aulas {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.lista-aulas li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  border: 1px solid #eee;
+}
+
+.lista-aulas li span {
+  font-size: 1rem;
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .adicionar-aula-curriculo,
+  .aulas-do-curriculo {
+    padding: 15px;
+  }
+
+  .adicionar-aula-curriculo h3,
+  .aulas-do-curriculo h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-adicionar-aula {
+    align-self: stretch;
+  }
+
+  .lista-aulas li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .btn-editar-aula {
+    align-self: flex-start;
+  }
+}
