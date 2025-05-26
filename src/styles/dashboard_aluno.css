@@ -75,45 +75,17 @@ h3 {
   flex-shrink: 0;
 }
 
+.card:hover {
+  background-color: #732D91;
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in;
+  cursor: pointer;
+}
+
 
 /* Sugestões */
-.sugestao.roxo {
+.sugestao {
   background-color: #8E44AD;
-  color: white;
-}
-
-.sugestao.verde {
-  background-color: #27AE60;
-  color: white;
-}
-
-.sugestao.rosa {
-  background-color: #E91E63;
-  color: white;
-}
-
-.sugestao.azul {
-  background-color: #3498DB;
-  color: white;
-}
-
-.sugestao.laranja {
-  background-color: #F39C12;
-  color: white;
-}
-
-.sugestao.amarelo {
-  background-color: #F1C40F;
-  color: white;
-}
-
-.sugestao.roxo-claro {
-  background-color: #BB8FCE;
-  color: white;
-}
-
-.sugestao.verde-claro {
-  background-color: #58D68D;
   color: white;
 }
 

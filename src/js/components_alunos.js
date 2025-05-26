@@ -17,6 +17,8 @@ function loadComponent(id, relativePath) {
       const element = document.getElementById(id);
       if (element) {
         element.innerHTML = data;
+        if (id === "header") atualizarSaudacao();
+        if (id === "sidebar") configurarLogout();
       } else {
         console.warn(`Elemento com ID '${id}' não encontrado.`);
       }
@@ -34,7 +36,6 @@ function marcarLinkAtivo() {
 
     const hrefPath = new URL(href, window.location.origin).pathname.replace(/\/$/, '');
 
-    // Verifica se a URL atual é exatamente igual ao link ou termina com /index.html
     if (
       currentPath === hrefPath ||
       currentPath === hrefPath + "/index.html" ||
@@ -45,11 +46,30 @@ function marcarLinkAtivo() {
   });
 }
 
+function atualizarSaudacao() {
+  const usuario = JSON.parse(localStorage.getItem("usuarioLogado"));
+  if (usuario?.nome) {
+    const saudacaoEl = document.querySelector(".saldacao");
+    if (saudacaoEl) {
+      saudacaoEl.textContent = `Olá, ${usuario.nome.split(" ")[0]}`;
+    }
+  }
+}
+
+function configurarLogout() {
+  const logoutBtn = document.getElementById("logoutBtn");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", () => {
+      localStorage.removeItem("usuarioLogado");
+      window.location.href = "/src/index.html";
+    });
+  }
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
   await loadComponent("header", "../components/header_aluno.html");
   await loadComponent("sidebar", "../components/sidebar_aluno.html");
 
-  // Aguarde um pequeno tempo para garantir que os elementos foram carregados
   setTimeout(() => {
     marcarLinkAtivo();
 
@@ -61,7 +81,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (sidebar) {
         sidebar.classList.toggle("active_menu");
 
-        // Alterna ícone ☰ ↔ X
         if (sidebar.classList.contains("active_menu")) {
           hamburger.innerHTML = "✕";
         } else {
@@ -70,7 +89,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     });
 
-    // (Opcional) Fecha menu ao clicar em qualquer link da sidebar no mobile
     const sidebarLinks = sidebar.querySelectorAll("a");
     sidebarLinks.forEach(link => {
       link.addEventListener("click", () => {
@@ -80,6 +98,5 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
       });
     });
-
   }, 50);
 });

@@ -17,6 +17,8 @@ function loadComponent(id, relativePath) {
       const element = document.getElementById(id);
       if (element) {
         element.innerHTML = data;
+        if (id === "header") atualizarSaudacao();
+        if (id === "sidebar") configurarLogout();
       } else {
         console.warn(`Elemento com ID '${id}' não encontrado.`);
       }
@@ -44,6 +46,27 @@ function marcarLinkAtivo() {
     }
   });
 }
+
+function atualizarSaudacao() {
+  const usuario = JSON.parse(localStorage.getItem("usuarioLogado"));
+  if (usuario?.nome) {
+    const saudacaoEl = document.querySelector(".saldacao");
+    if (saudacaoEl) {
+      saudacaoEl.textContent = `Olá, ${usuario.nome.split(" ")[0]}`;
+    }
+  }
+}
+
+function configurarLogout() {
+  const logoutBtn = document.getElementById("logoutBtn");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", () => {
+      localStorage.removeItem("usuarioLogado");
+      window.location.href = "/src/index.html";
+    });
+  }
+}
+
 
 document.addEventListener("DOMContentLoaded", async () => {
   await loadComponent("header", "../components/header_professor.html");

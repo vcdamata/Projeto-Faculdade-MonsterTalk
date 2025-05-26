@@ -5,21 +5,29 @@ document.getElementById("loginForm").addEventListener("submit", async function (
   const senha = document.getElementById("senha").value.trim();
   const erro = document.getElementById("erro");
 
+  showLoading(true);
+
   try {
     const response = await fetch(`http://localhost:3000/usuarios?email=${email}&senha=${senha}`);
     const data = await response.json();
 
     if (data.length === 0) {
       erro.textContent = "E-mail ou senha inválidos.";
+      showLoading(false);
       return;
     }
 
     const usuario = data[0];
+    console.log("Usuário autenticado:", usuario);
 
-    // Armazena os dados no localStorage (simula sessão)
     localStorage.setItem("usuarioLogado", JSON.stringify(usuario));
 
-    // Redireciona com base no tipo de usuário
+    // Verifique se foi salvo corretamente
+    console.log("Dados no localStorage:", localStorage.getItem("usuarioLogado"));
+
+    showLoading(false);
+
+    // Redirecionamento
     if (usuario.tipo === "aluno") {
       window.location.href = "/src/dashboard_aluno/index.html";
     } else if (usuario.tipo === "professor") {
@@ -30,5 +38,6 @@ document.getElementById("loginForm").addEventListener("submit", async function (
   } catch (err) {
     console.error("Erro na requisição:", err);
     erro.textContent = "Erro ao conectar com o servidor.";
+    showLoading(false);
   }
 });

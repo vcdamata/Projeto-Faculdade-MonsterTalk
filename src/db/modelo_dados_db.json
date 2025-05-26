@@ -1,0 +1,61 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Maria da Silva",
+      "email": "maria@escola.com",
+      "senha": "123456",
+      "tipo": "professor"
+    },
+    {
+      "id": "2",
+      "nome": "João Pedro",
+      "email": "joao@aluno.com",
+      "senha": "123456",
+      "tipo": "aluno",
+      "classeId": 1
+    }
+  ],
+  "classe": [
+    {
+      "id": "1",
+      "nome": "Turma A",
+      "professorId": 1
+    },
+    {
+      "id": "2",
+      "nome": "Turma B",
+      "professorId": 1
+    }
+  ],
+  "atividades": [
+    {
+      "id": "1",
+      "titulo": "Atividade 1",
+      "descricao": "Descrição da atividade 1",
+      "classeId": 1,
+      "professorId": 1
+    },
+    {
+      "id": "2",
+      "titulo": "Atividade 2",
+      "descricao": "Descrição da atividade 2",
+      "classeId": 2,
+      "professorId": 1
+    }
+  ],
+  "notas": [
+    {
+      "id": "1",
+      "atividadeId": 1,
+      "alunoId": 2,
+      "nota": 8.5
+    },
+    {
+      "id": "2",
+      "atividadeId": 2,
+      "alunoId": 2,
+      "nota": 9.0
+    }
+  ]
+}
