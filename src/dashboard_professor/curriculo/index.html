@@ -1,113 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/src/styles/dashboard_professor.css" />
-    <link rel="stylesheet" href="/src/styles/dashboard_professor_alunos.css" />
-    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
-    <title>MonsterHub - Alunos</title>
-  </head>
-  <body>
-    <!-- Header-->
-    <div id="header"></div>
 
-    <!-- Sidebar -->
-    <div id="sidebar"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/dashboard_professor.css" />
+  <link rel="stylesheet" href="/src/styles/dashboard_professor_curriculo.css">
+  <link rel="stylesheet" href="/src/styles/dashboard_professor_alunos.css" />
+  <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+  <title>MonsterHub - Currículo</title>
+</head>
 
-    <!-- Conteúdo Principal -->
-     <main class="painel">
-      <header class="top-bar">
-        <h1>Painel do<br />Professor</h1>
-        <div class="cabecalho-alunos-contexto">
-          <h2>Administrar Alunos</h2>
-        </div>
-      </header>
+<body>
+  <!-- Header-->
+  <div id="header"></div>
 
-      <div class="add-aluno-container">
-        <a href="/src/dashboard_professor/alunos/adicionar_aluno.html" id="btnAddNovoAluno" class="btn-principal">Adicionar Novo Aluno +</a>
+  <!-- Sidebar -->
+  <div id="sidebar"></div>
+
+  <!-- Conteúdo Principal -->
+  <main class="painel">
+    <header class="top-bar">
+      <h1>Painel do<br />Professor</h1>
+      <div class="cabecalho-alunos-contexto">
+        <h2>Currículo</h2>
       </div>
+    </header>
+      <section class="adicionar-aula-curriculo">
+        <h3>Adicionar nova aula ao currículo</h3>
+        <form class="form-adicionar-aula">
+          <div class="form-grupo">
+            <label for="nome-aula">Nome da Aula:</label>
+            <input type="text" id="nome-aula" name="nome-aula" required />
+          </div>
+          <div class="form-grupo">
+            <label for="nivel-aula">Nível da Aula:</label>
+            <select id="nivel-aula" name="nivel-aula"> 
+              <option value="nivel1">Nível 1</option> 
+              <option value="nivel2">Nível 2</option> 
+              <option value="nivel3">Nível 3</option> 
+            </select>
+          </div>
+          <button type="submit" class="btn-principal btn-adicionar-aula">Adicionar Aula</button>
+        </form>
+      </section>
 
-      <section class="lista-alunos-section">
-        <h3>Lista de alunos cadastrados</h3>
-        <div class="tabela-wrapper">
-          <table>
-            <thead>
-              <tr>
-                <th>Nome</th>
-                <th>Criação</th>
-                <th>Classe</th>
-                <th>Opções</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Marilyn Monroe</td>
-                <td>28/03/2025</td>
-                <td>Turma do barulho</td>
-                <td class="acoes">
-                  <a
-                    href="/src/dashboard_professor/alunos/editar_aluno.html?nome=Marilyn%20Monroe&turma=turma_do_barulho"
-                    class="btn-acao btn-editar"
-                    >Editar</a
-                  >
-                  <button class="btn-acao btn-excluir">Excluir</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Bob Marley</td>
-                <td>28/03/2025</td>
-                <td>Turma do barulho</td>
-                <td class="acoes">
-                  <a
-                    href="/src/dashboard_professor/alunos/editar_aluno.html?nome=Bob%20Marley&turma=turma_do_barulho"
-                    class="btn-acao btn-editar"
-                    >Editar</a
-                  >
-                  <button class="btn-acao btn-excluir">Excluir</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Enzo Gabriel</td>
-                <td>15/04/2025</td>
-                <td>English Monsters</td>
-                <td class="acoes">
-                  <a
-                    href="/src/dashboard_professor/alunos/editar_aluno.html?nome=Enzo%20Gabriel&turma=english_monsters"
-                    class="btn-acao btn-editar"
-                    >Editar</a
-                  >
-                  <button class="btn-acao btn-excluir">Excluir</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Valentina dos Santos</td>
-                <td>10/01/2025</td>
-                <td>English Monsters</td>
-                <td class="acoes">
-                  <a
-                    href="/src/dashboard_professor/alunos/editar_aluno.html?nome=Valentina%20dos%20Santos&turma=english_monsters"
-                    class="btn-acao btn-editar"
-                    >Editar</a
-                  >
-                  <button class="btn-acao btn-excluir">Excluir</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <section class="aulas-do-curriculo">
+        <h3>Aulas do currículo</h3>
+        <div class="lista-niveis">
+          <div class="nivel-item">
+            <h4>Nível 1</h4> 
+            <ul class="lista-aulas">
+              <li>
+                <span>Aula 1.1 - Introdução ao Inglês</span>
+                <button class="btn-acao btn-editar-aula">Editar</button>
+              </li>
+              <li>
+                <span>Aula 1.2 - Alfabeto e Pronúncia</span>
+                <button class="btn-acao btn-editar-aula">Editar</button>
+              </li>
+            </ul>
+          </div>
+          <div class="nivel-item">
+            <h4>Nível 2</h4> 
+            <ul class="lista-aulas">
+              <li>
+                <span>Aula 2.1 - Verbos Essenciais</span>
+                <button class="btn-acao btn-editar-aula">Editar</button>
+              </li>
+            </ul>
+          </div>
+          <div class="nivel-item"> 
+            <h4>Nível 3</h4> 
+            <ul class="lista-aulas">
+              <li>
+                <span>Aula 3.1 - Conversação Básica</span>
+                <button class="btn-acao btn-editar-aula">Editar</button>
+              </li>
+              <li>
+                <span>Aula 3.2 - Formando Frases</span>
+                <button class="btn-acao btn-editar-aula">Editar</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-- scripts -->
+    <script src="/src/js/components_professor.js"></script>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const sidebar = document.querySelector(".sidebar");
+
+      if (hamburger && sidebar) {
+        hamburger.addEventListener("click", () => {
+          const isActive = sidebar.classList.toggle("active");
+          hamburger.setAttribute("aria-expanded", isActive);
+        });
+      }
+    </script>
     <!-- Fim Conteúdo Principal -->
 
     <!-- scripts -->
     <script src="/src/js/components_professor.js"></script>
-    <script src="/src/js/dashboard_professor_alunos.js"></script>
-  </body>
+</body>
+
 </html>
