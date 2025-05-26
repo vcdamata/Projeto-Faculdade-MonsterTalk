@@ -1,3 +1,9 @@
+// Proteção de rota: redireciona se não estiver logado
+const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+if (!usuarioLogado) {
+  window.location.href = "/src/index.html";
+}
+
 function getScriptDir() {
   const script = document.currentScript || document.querySelector('script[src*="components_alunos.js"]');
   const path = script.getAttribute('src');

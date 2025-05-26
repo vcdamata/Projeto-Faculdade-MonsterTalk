@@ -11,22 +11,59 @@
     />
     <link rel="stylesheet" href="/src/styles/dashboard_aluno.css" />
     <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
-    <title>MonsterHub - Perfil</title>
+    <title>MonsterHub - Editar Perfil</title>
   </head>
   <body>
-    <!-- Header-->
     <div id="header"></div>
 
-    <!-- Sidebar -->
     <div id="sidebar"></div>
 
-    <!-- Conteúdo Principal -->
     <main>
-      <h1>Perfil</h1>
-    </main>
-    <!-- Fim Conteúdo Principal -->
+      <div class="topbar-main">
+        <div class="topbar-container">
+          <h1>Editar Perfil</h1>
+          <button id="btnExcluirConta" class="btn-excluir">
+            Excluir Conta
+          </button>
+        </div>
+      </div>
 
-    <!-- scripts -->
-    <script src="../../js/components_alunos.js"></script>
+      <form id="formEditarPerfil">
+        <div class="campo">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="campo">
+          <label for="senhaAtual">Senha Atual</label>
+          <input
+            type="password"
+            id="senhaAtual"
+            name="senhaAtual"
+            placeholder="Digite sua senha atual para salvar"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label for="novaSenha">Nova Senha</label>
+          <input
+            type="password"
+            id="novaSenha"
+            name="novaSenha"
+            placeholder="Deixe em branco para não alterar"
+          />
+        </div>
+
+        <button type="submit" class="btn-salvar">Salvar Alterações</button>
+      </form>
+    </main>
+    <script src="/src/js/components_alunos.js"></script>
+    <script src="/src/js/editar_perfil.js"></script>
   </body>
 </html>

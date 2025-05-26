@@ -11,34 +11,26 @@
     />
 
     <link rel="stylesheet" href="/src/styles/dashboard_professor.css" />
-    <link rel="stylesheet" href="/src/styles/editar_perfil.css" />
     <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
-    <title>MonsterHub - Perfil</title>
+    <title>MonsterHub - Editar Perfil</title>
   </head>
   <body>
-    <!-- Header-->
     <div id="header"></div>
 
-    <!-- Sidebar -->
     <div id="sidebar"></div>
 
-    <!-- Conteúdo principal -->
-    <main class="container">
-      <!-- Topbar com título e botão de exclusão -->
-      <header class="topbar-main">
+    <main>
+      <div class="topbar-main">
         <div class="topbar-container">
           <h1>Editar Perfil</h1>
           <button id="btnExcluirConta" class="btn-excluir">
             Excluir Conta
           </button>
         </div>
-      </header>
-      <!-- Fim Topbar -->
-
-      <h2>Dados da minha conta</h2>
+      </div>
       <form id="formEditarPerfil">
         <div class="campo">
-          <label for="nome">Nome</label>
+          <label for="nome">Nome Completo</label>
           <input type="text" id="nome" name="nome" required />
         </div>
 
@@ -48,22 +40,29 @@
         </div>
 
         <div class="campo">
-          <label for="senhaAtual">Senha atual</label>
-          <input type="password" id="senhaAtual" name="senhaAtual" required />
+          <label for="senhaAtual">Senha Atual</label>
+          <input
+            type="password"
+            id="senhaAtual"
+            name="senhaAtual"
+            placeholder="Necessária para salvar qualquer alteração"
+            required
+          />
         </div>
 
         <div class="campo">
-          <label for="novaSenha">Nova senha</label>
-          <input type="password" id="novaSenha" name="novaSenha" required />
+          <label for="novaSenha">Nova Senha</label>
+          <input
+            type="password"
+            id="novaSenha"
+            name="novaSenha"
+            placeholder="Deixe em branco para não alterar"
+          />
         </div>
 
         <button type="submit" class="btn-salvar">Salvar Alterações</button>
       </form>
     </main>
-
-    <!-- Fim Conteúdo Principal -->
-
-    <!-- scripts -->
     <script src="/src/js/components_professor.js"></script>
     <script src="/src/js/editar_perfil.js"></script>
   </body>
