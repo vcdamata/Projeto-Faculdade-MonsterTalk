@@ -2,32 +2,44 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Web Application Template
+title: MonsterTalk
 message: >-
-  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
-  Web da PUC Minas.
+  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações Web da PUC Minas
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Victor Augusto
+    family-names: Lobatto da Mata
+    email: valmata@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
-    name-suffix: Prof.
-    email: hugo@pucminas.br
+  - given-names: Bruno Santiago
+    email:
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+  - given-names: André
+    family-names: Bacelar Gonçalves
+    email: andrebgsi@gmail.com
+    affiliation: PUC Minas
+  - given-names: César Acassio de Almeida
+    family-names: Acassio de Almeida
+    email: cesar.acassio@sga.pucminas.br
+    affiliation: PUC Minas
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
-abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t1-MonsterTalk.git
+url: 'https://monstertalk.onrender.com'
+abstract: >+
+  Plataforma digital que centraliza e organiza conteúdos
+  para o ensino de idiomas, oferecendo um ambiente
+  estruturado, progressivo e acessível para alunos,
+  professores e pais.
+
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
-  - Template
-date-released: '2024-06-23'
+  - Language
+  - Course
+  - Learning
+  - English
+  - Platform
+date-released: '2025-06-23'
+

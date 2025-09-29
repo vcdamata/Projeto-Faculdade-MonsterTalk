@@ -1,0 +1,146 @@
+/* =================================================================
+   ESTILOS ESPECÍFICOS - PÁGINA DE PERFIL DE USUÁRIO
+   ================================================================= */
+
+/* Cabeçalho da página de perfil */
+.topbar-main {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
+  padding: var(--espacamento-padrao) calc(var(--espacamento-padrao) * 1.5);
+  margin-bottom: calc(var(--espacamento-padrao) * 2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--raio-borda-componente);
+}
+.topbar-main h1 {
+  font-size: 1.5rem; /* 24px */
+}
+
+/* Container principal do formulário */
+#formEditarPerfil {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--espacamento-padrao) * 1.5); /* 24px */
+  max-width: 800px;
+  margin: 0 auto; /* Centraliza o formulário */
+}
+
+/* Campos de formulário da página de perfil */
+.form-group-perfil {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--espacamento-padrao);
+}
+.form-group-perfil label {
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-basis: 200px; /* Largura base para o label */
+  text-align: right;
+  padding-right: var(--espacamento-padrao);
+}
+.form-group-perfil input {
+  flex: 1; /* Faz o input ocupar o resto do espaço */
+  min-width: 250px; /* Largura mínima para o input */
+  padding: 0.7rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda-container);
+  background-color: #f0f0f0;
+  font-size: 1rem;
+  outline: none;
+  transition: var(--transicao-padrao);
+}
+.form-group-perfil input:focus {
+  background-color: var(--cor-fundo-container);
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(108, 64, 212, 0.2);
+}
+
+/* Botão de salvar centralizado no formulário */
+#formEditarPerfil .btn-primario {
+  align-self: center;
+  margin-top: var(--espacamento-padrao);
+}
+
+/* --- Seção de Avatar --- */
+.campo-avatar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: calc(var(--espacamento-padrao) * 2);
+  margin-bottom: var(--espacamento-padrao);
+}
+
+.card-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espacamento-padrao);
+  padding: var(--espacamento-padrao);
+  background-color: #f8f7ff;
+  border-radius: var(--raio-borda-container);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.card-avatar label {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.avatar-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid var(--cor-primaria);
+  object-fit: cover;
+  background-color: var(--cor-fundo-container);
+}
+
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: calc(var(--espacamento-padrao) / 2); /* 8px */
+  max-height: 250px;
+  overflow-y: auto;
+  padding: calc(var(--espacamento-padrao) / 2);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda-container);
+  background-color: var(--cor-fundo-container);
+  min-width: 300px;
+}
+
+.avatar-option {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: var(--transicao-padrao);
+}
+.avatar-option:hover {
+  transform: scale(1.1);
+  border-color: var(--cor-aviso); /* Usando uma cor de feedback do tema */
+}
+.avatar-option.selected {
+  border-color: var(--cor-primaria);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(108, 64, 212, 0.5);
+}
+
+/* --- Responsividade para a página de perfil --- */
+@media (max-width: 768px) {
+  .form-group-perfil {
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .form-group-perfil label {
+    text-align: left;
+    padding-right: 0;
+    flex-basis: auto; 
+  }
+  .form-group-perfil input {
+    width: 100%; 
+  }
+}

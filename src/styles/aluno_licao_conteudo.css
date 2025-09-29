@@ -1,0 +1,179 @@
+.conteudo-viewer-container {
+    padding: 1.5rem 2rem;
+    max-width: 800px; /* Largura boa para leitura de artigos */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+.cv-page-header { /* cv = Conteúdo Viewer */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Menor margem */
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eaeaea;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cv-titulo-pagina {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #6A2C70; /* Cor do tema do aluno */
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.cv-btn-voltar {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cv-btn-voltar:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.cv-feedback-area {
+    margin-bottom: 1.5rem;
+}
+
+.cv-mensagem {
+    font-size: 1.1rem; 
+    color: #555; 
+    padding: 15px; /* Padding menor */
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid #eee;
+    max-width: 100%;
+}
+.cv-mensagem.hidden { display: none !important; }
+.cv-mensagem-erro { color: #D8000C; background-color: #FFD2D2; border-color: #D8000C; }
+
+
+/* Estilização da área onde o conteúdo do Quill será renderizado */
+.cv-conteudo-renderizado {
+    background-color: #fff; /* Garante fundo branco para o conteúdo */
+    padding: 1rem; /* Um padding leve ao redor do conteúdo */
+    border-radius: 8px; /* Opcional, se quiser uma borda ao redor */
+}
+
+/* O .ql-editor é a classe que o Quill usa para o conteúdo editável/renderizável.
+   Os estilos para elementos dentro dele (p, h1, strong, em, ul, ol, img, etc.)
+   virão principalmente do quill.snow.css que incluímos no HTML.
+   Podemos adicionar overrides ou estilos adicionais aqui se necessário. */
+.cv-conteudo-renderizado .ql-editor {
+    font-family: 'Baloo 2', cursive, sans-serif; /* Garante a fonte da aplicação */
+    line-height: 1.7; /* Boa legibilidade */
+    color: #333;
+    font-size: 1rem; /* Tamanho base do texto */
+    padding: 0; /* Quill já tem seu padding interno, removemos do nosso container */
+    /* Para evitar que o ql-editor crie uma borda padrão do tema snow, se não quisermos */
+    border: none !important; 
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.cv-conteudo-renderizado .ql-editor h1 {
+    font-size: 1.8em; /* Relativo ao font-size do .ql-editor */
+    color: #6A2C70;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3em;
+}
+.cv-conteudo-renderizado .ql-editor h2 {
+    font-size: 1.5em;
+    color: #542259;
+    margin-top: 1.4em;
+    margin-bottom: 0.7em;
+}
+.cv-conteudo-renderizado .ql-editor h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 1.3em;
+    margin-bottom: 0.6em;
+}
+
+.cv-conteudo-renderizado .ql-editor p {
+    margin-bottom: 1em;
+}
+
+.cv-conteudo-renderizado .ql-editor ul,
+.cv-conteudo-renderizado .ql-editor ol {
+    padding-left: 1.5em; /* Recuo padrão do Quill */
+    margin-bottom: 1em;
+}
+
+.cv-conteudo-renderizado .ql-editor img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto;
+    border-radius: 8px; /* Bordas suaves para imagens */
+    margin: 1em auto; /* Centraliza imagens de bloco */
+    display: block; /* Para margin auto funcionar */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cv-conteudo-renderizado .ql-editor a {
+    color: #F08A5D; /* Cor de link do tema */
+    text-decoration: underline;
+}
+.cv-conteudo-renderizado .ql-editor a:hover {
+    color: #e67e4e;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.status-mensagem {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.status-mensagem.sucesso {
+    background-color: #e6ffed;
+    color: #22c55e;
+    border: 1px solid #a7f3d0;
+}
+.status-mensagem.erro {
+    background-color: #ffeeee;
+    color: #ef4444;
+    border: 1px solid #fecaca;
+}
+
+
+/* Estilos para o checkbox de "marcar como visto" */
+.cv-marcar-visto-container {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cv-marcar-visto-container label {
+    font-size: 0.95rem;
+    color: #333;
+    cursor: pointer;
+}
+.cv-marcar-visto-container input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}

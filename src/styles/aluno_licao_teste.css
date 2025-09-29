@@ -1,0 +1,248 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Baloo 2', cursive;
+    background-color: #f8f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container Principal */
+.quiz-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Cabeçalho do Quiz */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f3f0ff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.quiz-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #444;
+}
+
+.progresso-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    height: 15px;
+    overflow: hidden;
+}
+
+#progresso-barra {
+    height: 100%;
+    width: 0%; /* O JavaScript irá controlar a largura */
+    background-color: #6c40d4; /* Cor principal do tema */
+    border-radius: 20px;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Container da Pergunta */
+#pergunta-enunciado {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.opcoes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+#pergunta-recurso-container {
+    text-align: center; /* Centraliza o recurso */
+    margin-bottom: 1.5rem; /* Espaço abaixo do recurso */
+}
+
+.pergunta-recurso-imagem {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    max-height: 250px; /* Limita a altura máxima da imagem */
+    border-radius: 10px;
+    object-fit: contain; /* Garante que toda a imagem seja visível */
+}
+
+.pergunta-recurso-audio {
+    width: 100%; /* Faz o controle de áudio ocupar a largura disponível */
+}
+
+/* Estilo para o texto que acompanha uma imagem de opção, se houver */
+.opcao-card-texto-com-imagem {
+    margin-top: 0.5rem;
+    font-size: 0.9rem; /* Pode ajustar conforme necessário */
+}
+
+/* Cards de Opção */
+.opcao-card {
+    background-color: #fff;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.opcao-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.opcao-card img {
+    width: 100%;
+    max-height: 150px; 
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Estados dos Cards */
+.opcao-card.correta {
+    border-color: #28a745; /* Verde */
+    background-color: #e9f7eb;
+}
+
+.opcao-card.incorreta {
+    border-color: #dc3545; /* Vermelho */
+    background-color: #fdeeee;
+}
+
+.opcao-card.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/* Botões */
+.button-sair{
+    right: 20px;
+    padding: 10px;
+    font-size: 0.95rem;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.25s ease;
+    border: 2px solid #666;
+    color: #666;
+    min-width: 110px;
+}
+.button-sair:hover { 
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.306);
+    background-color: #6c40d4;
+    color: white;
+}
+
+#feedback-container {
+    text-align: center;
+    min-height: 50px; /* Evita que o layout pule */
+}
+
+#btn-prosseguir {
+    background-color: #6c40d4;
+    color: white;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-prosseguir:hover {
+    background-color: #5a34b4;
+}
+
+/* Tela Final (Overlay e Modal) */
+.fim-licao-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fim-licao-modal {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.fim-licao-modal h2 {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.fim-licao-modal p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#fim-licao-btn {
+    background-color: #6c40d4;
+    color: white;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Classe Utilitária */
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .fim-licao-modal {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  }
+  .quiz-container {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .quiz-header h2 {
+    font-size: 1rem;
+  }
+  .button-sair{
+    padding: 5px;
+    font-size: 0.7rem;
+    min-width: 110px;
+  }
+}

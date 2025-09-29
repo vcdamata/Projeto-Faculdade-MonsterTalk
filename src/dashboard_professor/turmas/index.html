@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Turmas - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/professor_dashboard.css" />
+
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="sidebar"></div>
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1>Minhas Turmas</h1>
+        <button id="btnCriarNovaTurma" class="btn btn-page-header">
+          Criar Nova Turma +
+        </button>
+      </header>
+
+      <section class="feedback-area">
+        <div id="loading-message-tl" class="feedback_mensagem hidden">
+          Carregando suas turmas...
+        </div>
+        <div
+          id="error-message-tl"
+          class="feedback_mensagem feedback_mensagem_erro hidden"
+        >
+          Ocorreu um erro ao carregar as turmas.
+        </div>
+        <div
+          id="no-turmas-message-tl"
+          class="feedback_mensagem feedback_mensagem_info hidden"
+        >
+          Você ainda não criou nenhuma turma.
+        </div>
+      </section>
+
+      <section class="table-container">
+        <table id="tabelaMinhasTurmas" class="hidden">
+          <thead>
+            <tr>
+              <th>Nome da Turma</th>
+              <th>Descrição</th>
+              <th>Nº de Alunos</th>
+              <th>Nº de Recursos</th>
+              <th>Data de Criação</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/professor_components.js"></script>
+    <script type="module" src="/src/js/professor_turmas.js"></script>
+  </body>
+</html>

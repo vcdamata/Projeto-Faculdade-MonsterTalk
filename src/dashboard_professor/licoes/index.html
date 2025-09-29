@@ -3,30 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Lições e Conteúdos - MonsterTalk</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/styles/dashboard_professor.css" />
+
+    <link rel="stylesheet" href="/src/styles/professor_dashboard.css" />
+
     <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
-    <title>MonsterHub - Liçoes</title>
+    <script src="/src/js/sweetalert2.all.min.js"></script>
   </head>
   <body>
-    <!-- Header-->
     <div id="header"></div>
-
-    <!-- Sidebar -->
     <div id="sidebar"></div>
 
-    <!-- Conteúdo Principal -->
-    <main>
-      <h1>Liçoes</h1>
-    </main>
-    <!-- Fim Conteúdo Principal -->
+    <main class="main-content">
+      <header class="page-header">
+        <h1>Minhas Lições e Conteúdos</h1>
+        <div class="page-header-actions">
+          <button id="btnNovaLicao" class="btn btn-page-header">
+            Adicionar nova lição +
+          </button>
+          <button id="btnNovoConteudo" class="btn btn-page-header">
+            Adicionar novo conteúdo +
+          </button>
+        </div>
+      </header>
 
-    <!-- scripts -->
-    <script src="/src/js/components_professor.js"></script>
+      <div class="feedback-area">
+        <div id="loading-message-ml" class="feedback_messagem">
+          Carregando suas criações...
+        </div>
+        <div
+          id="error-message-ml"
+          class="feedback_messagem feedback_messagem_erro hidden"
+        ></div>
+        <div id="no-items-message-ml" class="feedback_messagem hidden">
+          Você ainda não criou nenhuma lição ou conteúdo.
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table id="tabelaMinhasCriacoes" class="hidden">
+          <thead>
+            <tr>
+              <th>Título</th>
+              <th>Tipo</th>
+              <th>Nível</th>
+              <th>Data de Criação</th>
+              <th>Opções</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/professor_components.js"></script>
+    <script type="module" src="/src/js/professor_licoes.js"></script>
   </body>
 </html>

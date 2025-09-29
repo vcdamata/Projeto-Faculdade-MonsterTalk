@@ -1,0 +1,201 @@
+/* /src/styles/editar_turma.css */
+
+.editar-turma-container {
+    padding: 1.5rem 2rem;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+.et-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.et-titulo-pagina {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--cor-primaria-hover); /* Cor do tema do professor */
+    font-weight: 700;
+}
+
+#formEditarTurma {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.et-form-section {
+    border: 1px solid #e0e0e0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #fdfdff;
+}
+
+.et-form-section h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: var(--cor-texto-principal); /* Tom mais escuro do tema */
+    font-size: 1.5rem;
+    border-bottom: 2px solid #f0e6f5;
+    padding-bottom: 0.75rem;
+}
+
+.et-form-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem; /* Espaço abaixo de cada campo de detalhe da turma */
+}
+
+.et-form-campo label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #444;
+}
+
+.et-form-campo input[type="text"],
+.et-form-campo textarea,
+.et-form-section select { /* Estilo para os selects também */
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.et-form-campo input[type="text"]:focus,
+.et-form-campo textarea:focus,
+.et-form-section select:focus {
+    border-color: var(--cor-primaria);
+    box-shadow: 0 0 0 3px rgba(106, 44, 112, 0.15);
+    outline: none;
+}
+
+.et-form-campo textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Lista de Alunos/Recursos e Controles de Adição */
+.et-lista-gerenciamento {
+    min-height: 60px; /* Altura mínima para mostrar a mensagem "Nenhum..." */
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.et-lista-gerenciamento p { /* Para a mensagem "Nenhum aluno/recurso" */
+    color: #777;
+    font-style: italic;
+}
+
+.et-item-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f9f9f9;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+}
+.et-item-lista:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.et-item-lista span { /* Nome do aluno ou título do recurso */
+    flex-grow: 1;
+}
+
+.et-btn-remover-item {
+    background-color: var(--cor-perigo);
+    color: white;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.et-btn-remover-item:hover {
+    background-color: #c0392b;
+}
+
+.et-add-item-controls {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-top: 0.5rem; /* Espaço acima do select e botão */
+}
+.et-add-item-controls select {
+    flex-grow: 1; /* Select ocupa mais espaço */
+}
+.et-btn-adicionar-item {
+    background-color: var(--cor-sucesso); /* Verde para adicionar */
+    color: white;
+    padding: 0.8rem 1.2rem; /* Consistente com outros inputs */
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.et-btn-adicionar-item:hover {
+    background-color: #229954;
+}
+
+
+/* Botões de Ação do Formulário */
+.et-form-acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eaeaea;
+}
+
+.et-btn {
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.et-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
+.et-btn:active { transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+.et-btn-salvar { background-color: var(--cor-primaria); color: white; }
+.et-btn-salvar:hover { background-color: #542259; }
+.et-btn-cancelar { background-color: #6c757d; color: white; }
+.et-btn-cancelar:hover { background-color: #5a6268; }
+
+.hidden { display: none !important; }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .editar-turma-container { padding: 0;
+    margin: 0; 
+    box-shadow: none;}
+    .et-titulo-pagina { font-size: 1.8rem; }
+    .et-form-section h2 { font-size: 1.3rem; }
+    .et-add-item-controls { flex-direction: column; align-items: stretch; }
+    .et-add-item-controls select { margin-bottom: 0.5rem; }
+    .et-form-acoes { flex-direction: column; gap: 0.8rem; }
+    .et-btn { width: 100%; }
+}

@@ -9,183 +9,130 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/styles/dashboard_professor.css" />
+    <link rel="stylesheet" href="/src/styles/professor_dashboard.css" />
     <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
     <title>Painel do professor - MonsterTalk</title>
+    <!-- Chart.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
-    <!-- Header-->
+    <!-- Header será carregado por components_professor.js -->
     <div id="header"></div>
 
-    <!-- Sidebar -->
+    <!-- Sidebar será carregado por components_professor.js -->
     <div id="sidebar"></div>
 
     <!-- Conteúdo Principal -->
-    <main class="painel">
-      <header class="top-bar">
+    <main class="main-content">
+      <header class="page-header">
         <h1>Painel do<br />Professor</h1>
         <div class="barra-controles">
-          <label for="turma">Selecionar classe:</label>
-          <select id="turma">
-            <option>Turma do barulho</option>
-            <option>Turma 2</option>
+          <label for="turma-select">Selecionar classe:</label>
+          <select id="turma-select" class="select-turma">
+            <option value="">Carregando turmas...</option>
           </select>
-          <div class="contador">Alunos <span>04</span></div>
-          <div class="contador">Classes <span>01</span></div>
+          <div class="contador">Alunos <span id="contador-alunos">0</span></div>
+          <div class="contador">
+            Classes <span id="contador-classes">0</span>
+          </div>
         </div>
       </header>
-      <div class="tabelas">
-        <div class="tabela-box">
-          <h2>Tempo médio gasto por aluno</h2>
-          <div class="tabela-wrapper">
+
+      <div id="dashboard-mensagem" class="ml-mensagem hidden"></div>
+
+      <div class="metricas-container">
+        <!-- Métrica: Exercícios Realizados e Qualidade -->
+        <div class="metrica-box">
+          <h2>Desempenho dos Alunos (Toda Plataforma)</h2>
+          <div class="lista-container">
             <table>
               <thead>
                 <tr>
-                  <th>Classificação</th>
                   <th>Aluno</th>
-                  <th>Tempo Médio</th>
+                  <th>Lições Concluídas</th>
+                  <th>Pontuação Média</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>01</td>
-                  <td>Nome_Aluno 01</td>
-                  <td>02:10</td>
-                </tr>
-                <tr>
-                  <td>02</td>
-                  <td>Nome_Aluno 02</td>
-                  <td>01:15</td>
-                </tr>
-                <tr>
-                  <td>03</td>
-                  <td>Nome_Aluno 03</td>
-                  <td>00:40</td>
-                </tr>
-                <tr>
-                  <td>04</td>
-                  <td>Nome_Aluno 04</td>
-                  <td>00:06</td>
-                </tr>
+              <tbody id="tbody-desempenho-alunos">
+                <!-- Linhas da tabela serão carregadas dinamicamente -->
               </tbody>
             </table>
           </div>
         </div>
 
-        <div class="tabela-box">
-          <h2>Exercícios realizados por aluno</h2>
-          <div class="tabela-wrapper">
+        <!-- Métrica: Aquisição de Vocabulário -->
+        <div class="metrica-box">
+          <h2>Aquisição de Vocabulário</h2>
+          <div class="lista-container">
             <table>
               <thead>
                 <tr>
-                  <th>Classificação</th>
                   <th>Aluno</th>
-                  <th>Exercícios</th>
+                  <th>Palavras Aprendidas</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>01</td>
-                  <td>Nome_Aluno 01</td>
-                  <td>10</td>
-                </tr>
-                <tr>
-                  <td>02</td>
-                  <td>Nome_Aluno 02</td>
-                  <td>8</td>
-                </tr>
-                <tr>
-                  <td>03</td>
-                  <td>Nome_Aluno 03</td>
-                  <td>6</td>
-                </tr>
-                <tr>
-                  <td>04</td>
-                  <td>Nome_Aluno 04</td>
-                  <td>2</td>
-                </tr>
+              <tbody id="tbody-vocabulario-alunos">
+                <!-- Linhas da tabela serão carregadas dinamicamente -->
               </tbody>
             </table>
+            <p class="media-turma-vocabulario">
+              Média da turma:
+              <strong id="media-palavras-turma">N/D</strong> palavras
+            </p>
           </div>
         </div>
 
-        <div class="tabela-box">
-          <h2>Pontos Fortes</h2>
-          <div class="tabela-wrapper">
-            <table>
-              <thead>
-                <tr>
-                  <th>Classificação</th>
-                  <th>Exercicio</th>
-                  <th>Erros</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>01</td>
-                  <td>00-6</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>02</td>
-                  <td>03-1</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>03</td>
-                  <td>02-2</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <td>04</td>
-                  <td>03-2</td>
-                  <td>1</td>
-                </tr>
-              </tbody>
-            </table>
+        <!-- Métrica: Distribuição de Desempenho -->
+        <div class="metrica-box distribuicao-desempenho-box">
+          <h2>Distribuição de Desempenho da Turma</h2>
+          <div class="grafico-container">
+            <canvas id="grafico-distribuicao-desempenho"></canvas>
           </div>
+          <p class="metrica-descricao">
+            Baseado na pontuação média dos alunos nas lições concluídas.
+          </p>
         </div>
 
-        <div class="tabela-box">
-          <h2>Pontos Fracos</h2>
-          <div class="tabela-wrapper">
+        <!-- Métrica: Progresso Médio no Currículo -->
+        <div class="metrica-box progresso-curricular-box">
+          <h2>Progresso Médio no Currículo da Turma</h2>
+          <div
+            class="progresso-curricular-valor"
+            id="progresso-curricular-valor"
+          >
+            N/D
+          </div>
+          <div class="progresso-curricular-barra-container">
+            <div
+              class="progresso-curricular-barra"
+              id="progresso-curricular-barra"
+            ></div>
+          </div>
+          <p class="metrica-descricao">
+            Média de conclusão dos recursos designados para a turma.
+          </p>
+        </div>
+
+        <!-- Métrica de Progresso Individual -->
+        <div class="metrica-box">
+          <h2>Progresso Individual no Currículo da Turma</h2>
+          <div class="lista-container">
             <table>
               <thead>
                 <tr>
-                  <th>Classificação</th>
-                  <th>Exercicio</th>
-                  <th>Erros</th>
+                  <th>Aluno</th>
+                  <th>Progresso</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>01</td>
-                  <td>00-1</td>
-                  <td>10</td>
-                </tr>
-                <tr>
-                  <td>02</td>
-                  <td>03-7</td>
-                  <td>8</td>
-                </tr>
-                <tr>
-                  <td>03</td>
-                  <td>02-1</td>
-                  <td>6</td>
-                </tr>
-                <tr>
-                  <td>04</td>
-                  <td>03-4</td>
-                  <td>2</td>
-                </tr>
+              <tbody id="tbody-progresso-individual">
+                <!-- Linhas de progresso individual serão carregadas aqui -->
               </tbody>
             </table>
           </div>
-        </div>
       </div>
     </main>
     <!-- Conteúdo Principal -->
 
-    <script src="/src/js/components_professor.js"></script>
+    <script type="module" src="/src/js/professor_components.js"></script>
   </body>
 </html>

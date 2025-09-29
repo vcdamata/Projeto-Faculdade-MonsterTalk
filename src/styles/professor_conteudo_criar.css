@@ -1,0 +1,176 @@
+/* Container principal - reutilizado de licao_criar */
+.criar-licao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Título da página - reutilizado de licao_criar */
+.titulo-pagina-criar-licao {
+    background-color: var(--cor-primaria); /* Cor do tema do professor */
+    color: white;
+    width: calc(100% + 4rem);
+    padding: 1.2rem;
+    border-radius: 10px;
+    margin: -1rem -2rem 2rem -2rem;
+    text-align: center;
+}
+
+.titulo-pagina-criar-licao h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Seletor do formulário atualizado para #formCriarConteudo */
+#formCriarConteudo, #formEditarConteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Seções do formulário - reutilizado de licao_criar */
+.form-section {
+    border: 1px solid #e0e0e0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #fdfdff;
+}
+
+/* Estilos gerais para labels e inputs, adaptados para o novo form */
+#formCriarConteudo label, #formEditarConteudo label {
+    display: block;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+#formCriarConteudo input[type="text"],
+#formCriarConteudo select,
+#formCriarConteudo textarea,
+#formEditarConteudo input[type="text"],
+#formEditarConteudo select,
+#formEditarConteudo textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+#formCriarConteudo textarea, #formEditarConteudo textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#formCriarConteudo input[type="text"]:focus,
+#formCriarConteudo select:focus,
+#formCriarConteudo textarea:focus,
+#formEditarConteudo input[type="text"]:focus,
+#formEditarConteudo select:focus,
+#formEditarConteudo textarea:focus {
+    border-color: #6A2C70;
+    box-shadow: 0 0 0 2px rgba(106, 44, 112, 0.2);
+    outline: none;
+}
+
+/* Estilos para o contêiner do editor Quill - reutilizado de licao_criar */
+.quill-editor-container {
+    background-color: #fff; /* Garante fundo branco para o editor */
+    border-radius: 6px; /* Combina com os inputs */
+}
+.ql-toolbar {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.ql-container {
+    min-height: 250px; /* Aumentei um pouco a altura para o conteúdo principal */
+    font-size: 1rem !important; /* Garante que o texto dentro do Quill tenha um bom tamanho */
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.ql-editor {
+    font-family: 'Baloo 2', cursive; /* Usa a mesma fonte */
+    padding: 12px 15px; /* Padding interno do editor */
+}
+
+
+/* Botão de salvar - reutilizado de licao_criar */
+.btn-salvar-licao {
+    display: block;
+    width: fit-content;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 1.5rem auto 0 auto; /* Centraliza e adiciona margem */
+    background-color: var(--cor-primaria); /* Cor principal do tema */
+}
+
+.btn-salvar-licao:hover {
+    background-color: var(--cor-primaria-hover);
+    transform: translateY(-2px);
+}
+
+.btn-cancelar {
+    background-color: #6c757d; /* Cinza */
+    color: white;
+    /* Reutilize estilos de .btn-adicionar ou .btn-salvar-licao se desejar */
+    display: block;
+    width: fit-content;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0.5rem auto 0 auto; /* Margem ajustada */
+}
+
+.btn-cancelar:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Responsividade - reutilizado de licao_criar */
+@media (max-width: 960px) {
+    .criar-licao-container {
+        padding: 0;
+        margin: 0 1rem;
+        box-shadow: none;
+    }
+    
+    .titulo-pagina-criar-licao h1 {
+        font-size: 1.5rem;
+    }
+
+    #formCriarConteudo input[type="text"],
+    #formCriarConteudo select,
+    #formCriarConteudo textarea,
+    #formEditarConteudo input[type="text"],
+    #formEditarConteudo select,
+    #formEditarConteudo textarea {
+        font-size: 0.9rem;
+    }
+
+    .btn-salvar-licao, .btn-cancelar {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}

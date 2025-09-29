@@ -92,12 +92,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 | ID     | Descrição do Requisito | Prioridade |
 |--------|---------------------------------------------------------------|-----------|
-| RF-001 | A plataforma deve permitir o cadastro e login de usuários (alunos e professores). | ALTA |
+| RF-001 | A plataforma deve permitir o cadastro e login de utilizadores com dois perfis: "aluno" e "professor". | ALTA |
 | RF-002 | A aplicação deve oferecer um painel de acompanhamento do progresso dos alunos para professores. | ALTA |
-| RF-003 | O sistema deve disponibilizar atividades progressivas, divididas por nível de dificuldade. | ALTA |
-| RF-004 | A plataforma deve incluir quizzes, flashcards e desafios interativos para reforçar o aprendizado. | MÉDIA |
-| RF-005 | A plataforma deve fornecer sugestões de atividades personalizadas | MÉDIA |
-| RF-006 | O sistema deve disponibilizar fóruns entre professores e alunos com o intuito de discutir assuntos e sanar dúvidas pertinente ao conteúdo. | BAIXA  |
+| RF-003 | O sistema deve permitir que professores criem, visualizem, editem e excluam turmas. | ALTA |
+| RF-004 | O sistema deve permitir que professores criem e editem lições interativas (quizzes) e conteúdos de apoio. | ALTA |
+| RF-005 | O sistema deve permitir que alunos visualizem e realizem as lições atribuídas, recebendo a sua pontuação no final. | ALTA |
+| RF-006 | O sistema deve registar o progresso do aluno, incluindo lições concluídas, pontuação e palavras aprendidas. | ALTA |
+| RF-007 | Alunos devem poder visualizar conteúdos de apoio e marcá-los como vistos. | MÉDIA |
+| RF-008 | A plataforma deve oferecer atividades complementares como conteudos externos como "Leitor de Notícias". | MÉDIA |
+| RF-009 | Utilizadores devem poder editar as suas informações de perfil, incluindo o avatar. | MÉDIA |
+| RF-010 | O sistema deve disponibilizar atividades progressivas, divididas por nível de dificuldade. | MÉDIA |
+| RF-011 | A plataforma deve fornecer sugestões de atividades personalizadas | BAIXA |
+| RF-012 | O sistema deve disponibilizar fóruns entre professores e alunos com o intuito de discutir assuntos e sanar dúvidas pertinente ao conteúdo. | BAIXA  |
+
 
 ---
 

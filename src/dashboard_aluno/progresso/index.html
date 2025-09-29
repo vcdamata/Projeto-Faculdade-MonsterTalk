@@ -6,27 +6,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/styles/dashboard_aluno.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_progresso.css" />
     <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
-    <title>MonsterHub - Progresso</title>
+    <title>MonsterHub - Meu Progresso</title>
   </head>
   <body>
-    <!-- Header-->
     <div id="header"></div>
 
-    <!-- Sidebar -->
     <div id="sidebar"></div>
 
-    <!-- Conteúdo Principal -->
-    <main>
-      <h1>Progresso</h1>
-    </main>
-    <!-- Fim Conteúdo Principal -->
+    <main class="main-content">
+      <div class="page-header">
+        <h2>Meu progresso</h2>
+      </div>
 
-    <!-- scripts -->
-    <script src="../../js/components_alunos.js"></script>
+      <section class="metricas-progresso">
+        <div class="metrica-card">
+          <h3>Palavras aprendidas</h3>
+          <p id="palavras-aprendidas-valor">0</p>
+        </div>
+        <div class="metrica-card">
+          <h3>Lições concluídas</h3>
+          <p id="licoes-concluidas-valor">0</p>
+        </div>
+      </section>
+
+      <section class="conclusao-curso">
+        <h3>Conclusão do curso</h3>
+        <div class="progresso-container-curso">
+          <div class="barra-progresso-curso">
+            <div id="progresso-curso-barra" style="width: 0%"></div>
+          </div>
+          <span id="progresso-curso-percentual">0%</span>
+        </div>
+      </section>
+
+      <section class="licoes-recentes">
+        <h3>Lições recentes</h3>
+        <div id="recentes-container" class="scroll-container-progresso">
+          <p>Nenhuma lição recente.</p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/aluno_components.js"></script>
+    <script type="module" src="/src/js/aluno_progresso.js"></script>
   </body>
 </html>

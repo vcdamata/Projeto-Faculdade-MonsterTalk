@@ -91,6 +91,15 @@ label {
   margin-right: 20px;
  }
 
+ .btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+ }
+
 
  .cadastrar {
   color: white;
@@ -106,7 +115,6 @@ label {
   width: 300px;
   height: 60px;
   font-weight: bold;
-  margin: 60px;
 }
 
 .cadastrar:hover {
@@ -129,10 +137,54 @@ label {
   width: 300px;
   height: 60px;
   font-weight: bold;
-  margin: 60px;
 }
+
 .login:hover {
   background-color: #FF66C4;
   box-shadow: 0 3px 6px rgba(0,0,0,0.5);
   transform: scale(1.05);
+}
+
+@media  (max-width: 768px) {
+  body.cadastro-page {
+    padding: 20px;
+  }
+
+  .bg-lateral {
+    width: 70px;
+  }
+
+  .logo {
+    width: 80%;
+    margin: 0  40px;
+  }
+
+  .cadastro-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .line_form {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  label {
+    text-align: left;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: auto;
+  }
+
+  .campo_formulario {
+    width: calc(100% - 20px);
+  }
+
+  .cadastrar, .login {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+  
 }

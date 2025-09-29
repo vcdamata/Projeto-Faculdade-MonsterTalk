@@ -1,0 +1,164 @@
+/* /src/styles/palavra_do_dia.css */
+
+body .main-content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.palavra-do-dia-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    width: 100%;
+    max-width: 500px; /* Pode ser um pouco menor sem a lista de exemplos */
+    margin: 20px auto; 
+    box-sizing: border-box;
+}
+
+.lesson-title-pdd {
+    font-size: 2.2rem;
+    color: #333; 
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.card-container-pdd {
+    margin-bottom: 25px;
+}
+
+.card-pdd {
+    width: 360px; 
+    height: 220px; /* Reduzido um pouco, já que não tem lista de exemplos */
+    perspective: 1200px;
+    cursor: pointer;
+}
+
+.card-inner-pdd {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card-pdd.is-flipped .card-inner-pdd {
+    transform: rotateY(180deg);
+}
+
+.card-face-pdd {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    overflow: hidden; 
+}
+
+.card-front-pdd {
+    background: linear-gradient(145deg, #9735E8, #D135E8);
+    color: #fff;
+}
+/* Efeito de brilho no hover */
+.card-front-pdd::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -85%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  transform: skewX(-25deg);
+  transition: left 0.6s ease;
+}
+
+.card-front-pdd:hover::before {
+  left: 120%;
+}
+
+.card-front-pdd:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--sombra-elevada);
+}
+
+.card-back-pdd {
+    border: #ccc 2px solid;
+    color: #6c40d4; 
+    transform: rotateY(180deg);
+}
+
+.card-content-pdd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza melhor com menos conteúdo */
+    gap: 10px;
+}
+
+.word-pdd {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.examples-title-pdd { /* Renomeado para example-title-pdd se quiser, mas a classe pode ser genérica */
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.card-front-pdd .examples-title-pdd {
+    color: white; /* Mantém o título branco no verso */
+}
+.card-back-pdd .examples-title-pdd {
+    color: #333;
+}
+
+.example-sentence-pdd { /* Novo estilo para o parágrafo do exemplo */
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+    margin: 0;
+    padding: 0 10px; /* Pequeno padding lateral */
+}
+
+.controls-pdd { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px; }
+.control-button-pdd {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: #fff;
+    color: #644BBE;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.control-button-pdd:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.18); }
+
+.control-button-pdd#btn-pronounce-pdd { background-color: #644BBE; color: white; }
+.control-button-pdd#btn-pronounce-pdd:hover { background-color: white; color: #644BBE; }
+
+
+/* Mensagens de Loading e Erro */
+.loading-message-pdd, .error-message-pdd {
+    font-size: 1.1rem; color: #555; padding: 15px 20px;
+    background-color: #fff; border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); text-align: center;
+    width: 100%; max-width: 350px; box-sizing: border-box; margin-bottom: 20px;
+}
+.error-message-pdd { color: #D8000C; background-color: #FFD2D2; border: 1px solid #D8000C; }
+.hidden { display: none !important; }

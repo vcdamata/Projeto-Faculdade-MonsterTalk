@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criar Nova Turma - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/professor_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/professor_turmas_criar.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="sidebar"></div>
+    <main class="main-content">
+      <div class="criar-turma-container">
+        <div class="ct-header">
+          <h1 class="ct-titulo-pagina">Criar Nova Turma</h1>
+        </div>
+
+        <form id="formCriarTurma">
+          <div class="ct-form-campo">
+            <label for="turmaNome">Nome da Turma:</label>
+            <input
+              type="text"
+              id="turmaNome"
+              name="turmaNome"
+              placeholder="Ex: Inglês Iniciante - Turma da Manhã"
+              required
+            />
+          </div>
+
+          <div class="ct-form-campo">
+            <label for="turmaDescricao">Descrição da Turma (opcional):</label>
+            <textarea
+              id="turmaDescricao"
+              name="turmaDescricao"
+              rows="4"
+              placeholder="Ex: Foco em conversação e vocabulário básico para o dia a dia."
+            ></textarea>
+          </div>
+
+          <div class="ct-form-acoes">
+            <button type="submit" class="btn btn-primario">Salvar Turma</button>
+            <button
+              type="button"
+              id="btnCancelarCriacaoTurma"
+              class="btn btn-secundario"
+            >
+              Cancelar
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/professor_components.js"></script>
+    <script type="module" src="/src/js/professor_turmas_criar.js"></script>
+  </body>
+</html>

@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/styles/dashboard_aluno.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_dashboard.css" />
     <link rel="shortcut icon" type="imagex/svg" href="../img/mascote.svg" />
     <title>MonsterHub</title>
   </head>
@@ -21,68 +21,58 @@
     <div id="sidebar"></div>
 
     <!-- Conteúdo Principal -->
-    <main>
+    <main class="main-content">
       <section class="continue-licao">
-        <img src="../img/Mask group.png" alt="Avatar do monstro" />
-        <h2>Continue sua última lição</h2>
+        <a href="/src/dashboard_aluno/licoes/licao_revisao_palavras.html">
+          <img src="../img/Mask group.png" alt="Avatar do monstro" />
+          <h2>Revise as palavras aprendidas</h2>
+        </a>
       </section>
 
       <section class="sugestoes">
-        <h3>Sugestões para você:</h3>
+        <h3>Leia, Ouça e Repita:</h3>
         <div class="scroll-container">
-          <div class="card sugestao roxo">Revisão</div>
-          <div class="card sugestao verde">Treine os<br />verbos</div>
-          <div class="card sugestao rosa">Ouça<br />e repita</div>
-          <div class="card sugestao azul">Desafio<br />do dia</div>
-          <div class="card sugestao laranja">Mini Jogo<br />do Dia</div>
+          <a
+            class="card sugestao"
+            href="/src/dashboard_aluno/licoes/licao_noticias.html"
+          >
+            <h4>Notícias</h4>
+          </a>
+
+          <a
+            class="card sugestao"
+            href="/src/dashboard_aluno/licoes/licao_palavra_do_dia.html"
+          >
+            <h4>Palavras do dia</h4>
+          </a>
+
+          <a
+            class="card sugestao"
+            href="/src/dashboard_aluno/licoes/licao_revisao_palavras.html"
+          >
+            <h4>Revise suas palavras</h4>
+          </a>
         </div>
       </section>
 
       <section class="nivel">
         <h3>Nível Básico</h3>
-        <div class="scroll-container">
-          <div class="card basico">Números</div>
-          <div class="card basico">Alfabeto</div>
-          <div class="card basico">Partes do Corpo</div>
-          <div class="card basico">Cores</div>
-          <div class="card basico">Animais</div>
-          <div class="card basico">Objetos da Casa</div>
-          <div class="card basico">Saudações<br />e Apresentações</div>
-          <div class="card basico">Dias da Semana</div>
-        </div>
+        <div id="licoes-basico" class="scroll-container"></div>
       </section>
 
       <section class="nivel">
         <h3>Nível Intermediário</h3>
-        <div class="scroll-container">
-          <div class="card intermediario">Alimentação</div>
-          <div class="card intermediario">Passeio</div>
-          <div class="card intermediario">Família</div>
-          <div class="card intermediario">Lugares</div>
-          <div class="card intermediario">Escola<br />e Matérias</div>
-          <div class="card intermediario">Esportes<br />e Atividades</div>
-          <div class="card intermediario">Roupas<br />e Estações</div>
-          <div class="card intermediario">Sentimentos<br />e Emoções</div>
-        </div>
+        <div id="licoes-intermediario" class="scroll-container"></div>
       </section>
 
       <section class="nivel">
         <h3>Nível Avançado</h3>
-        <div class="scroll-container">
-          <div class="card avancado">Trechos de Filmes</div>
-          <div class="card avancado">Trechos de Músicas</div>
-          <div class="card avancado">Diálogos Completos</div>
-          <div class="card avancado">Regras Gramaticais</div>
-          <div class="card avancado">Histórias<br />em Quadrinhos</div>
-          <div class="card avancado">Notícias Fáceis</div>
-          <div class="card avancado">Crie seu Final</div>
-          <div class="card avancado">Debates de Opinião</div>
-        </div>
+        <div id="licoes-avancado" class="scroll-container"></div>
       </section>
     </main>
     <!-- Fim Conteúdo Principal -->
 
     <!-- scripts -->
-    <script src="/src/js/components_alunos.js"></script>
+    <script type="module" src="/src/js/aluno_components.js"></script>
   </body>
 </html>

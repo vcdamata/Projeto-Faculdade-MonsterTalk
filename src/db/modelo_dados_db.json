@@ -4,58 +4,343 @@
       "id": "1",
       "nome": "Maria da Silva",
       "email": "maria@escola.com",
-      "senha": "123456",
-      "tipo": "professor"
+      "senha": "123",
+      "tipo": "professor",
+      "avatarUrl": "/src/img/perfil_avatar/avatar_02.svg"
     },
     {
       "id": "2",
       "nome": "João Pedro",
       "email": "joao@aluno.com",
-      "senha": "123456",
+      "senha": "123",
       "tipo": "aluno",
-      "classeId": 1
+      "progresso": {
+        "licoesConcluidas": [
+          {
+            "licaoId": "prof_lic_1748828083434_59thr",
+            "tipoLicao": "professor",
+            "pontuacao": 100,
+            "dataConclusao": "2025-06-09T23:57:58.798Z"
+          }
+        ],
+        "palavrasAprendidas": [
+          {
+            "word": "circle",
+            "traducao": "círculo"
+          }
+        ],
+        "ultimaLicaoFeitaId": "prof_lic_1748828083434_59thr",
+        "conteudosVisualizados": [
+          {
+            "id": "cont_prof_1748829384558_82dc1",
+            "tipo": "conteudoProfessor",
+            "dataVisualizacao": "2025-06-04T14:30:12.906Z"
+          }
+        ]
+      },
+      "avatarUrl": "/src/img/perfil_avatar/avatar_02.svg"
     }
   ],
-  "classe": [
+  "licoes": [
     {
-      "id": "1",
-      "nome": "Turma A",
-      "professorId": 1
-    },
-    {
-      "id": "2",
-      "nome": "Turma B",
-      "professorId": 1
+      "id": "4",
+      "titulo": "Animais",
+      "nivel": "Básico",
+      "descricao": "Conheça os nomes de animais domésticos e selvagens comuns.",
+      "criadorId": null,
+      "perguntas": [
+        {
+          "id": 1,
+          "tipo": "multipla-escolha-imagem",
+          "enunciado": "Qual animal faz 'Miau'?",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "cat",
+              "traducao": "gato"
+            },
+            {
+              "word": "dog",
+              "traducao": "cachorro"
+            },
+            {
+              "word": "bird",
+              "traducao": "pássaro"
+            },
+            {
+              "word": "fish",
+              "traducao": "peixe"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Dog (cachorro)",
+              "imagemUrl": "/src/img/lessons/dog.png"
+            },
+            {
+              "texto": "Cat (gato)",
+              "imagemUrl": "/src/img/lessons/cat.png"
+            },
+            {
+              "texto": "Bird (pássaro)",
+              "imagemUrl": "/src/img/lessons/bird.png"
+            },
+            {
+              "texto": "Fish (peixe)",
+              "imagemUrl": "/src/img/lessons/fish.png"
+            }
+          ],
+          "respostaCorretaIndex": 1
+        },
+        {
+          "id": 2,
+          "tipo": "multipla-escolha",
+          "enunciado": "O 'melhor amigo do homem' é o:",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "dog",
+              "traducao": "cachorro"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Horse (cavalo)"
+            },
+            {
+              "texto": "Lion (leão)"
+            },
+            {
+              "texto": "Dog (cachorro)"
+            },
+            {
+              "texto": "Monkey (macaco)"
+            }
+          ],
+          "respostaCorretaIndex": 2
+        },
+        {
+          "id": 3,
+          "tipo": "multipla-escolha",
+          "enunciado": "Que animal vive na água e nada?",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "fish",
+              "traducao": "peixe"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Bird (pássaro)"
+            },
+            {
+              "texto": "Fish (peixe)"
+            },
+            {
+              "texto": "Elephant (elefante)"
+            },
+            {
+              "texto": "Snake (cobra)"
+            }
+          ],
+          "respostaCorretaIndex": 1
+        },
+        {
+          "id": 4,
+          "tipo": "multipla-escolha",
+          "enunciado": "Qual destes animais pode voar?",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "bird",
+              "traducao": "pássaro"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Cow (vaca)"
+            },
+            {
+              "texto": "Pig (porco)"
+            },
+            {
+              "texto": "Sheep (ovelha)"
+            },
+            {
+              "texto": "Bird (pássaro)"
+            }
+          ],
+          "respostaCorretaIndex": 3
+        },
+        {
+          "id": 5,
+          "tipo": "multipla-escolha",
+          "enunciado": "O 'rei da selva' é o:",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "Lion",
+              "traducao": "leão"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Tiger (tigre)"
+            },
+            {
+              "texto": "Lion (leão)"
+            },
+            {
+              "texto": "Bear (urso)"
+            },
+            {
+              "texto": "Wolf (lobo)"
+            }
+          ],
+          "respostaCorretaIndex": 1
+        },
+        {
+          "id": 6,
+          "tipo": "multipla-escolha",
+          "enunciado": "Como se chama 'cavalo' em inglês?",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "horse",
+              "traducao": "cavalo"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Zebra"
+            },
+            {
+              "texto": "Donkey"
+            },
+            {
+              "texto": "Horse"
+            },
+            {
+              "texto": "Goat"
+            }
+          ],
+          "respostaCorretaIndex": 2
+        }
+      ]
     }
   ],
-  "atividades": [
+  "licao_palavras_do_dia": [
     {
-      "id": "1",
-      "titulo": "Atividade 1",
-      "descricao": "Descrição da atividade 1",
-      "classeId": 1,
-      "professorId": 1
-    },
-    {
-      "id": "2",
-      "titulo": "Atividade 2",
-      "descricao": "Descrição da atividade 2",
-      "classeId": 2,
-      "professorId": 1
+      "word": "school",
+      "translation": "escola",
+      "example_en": "The school is closed today.",
+      "example_pt": "A escola está fechada hoje.",
+      "id": "8d8a"
     }
   ],
-  "notas": [
+  "licoes_professor": [
     {
-      "id": "1",
-      "atividadeId": 1,
-      "alunoId": 2,
-      "nota": 8.5
-    },
+      "id": "prof_lic_1748828083434_59thr",
+      "professorId": "1",
+      "titulo": "tarefas",
+      "nivel": "Básico",
+      "descricao": "sdsd",
+      "perguntas": [
+        {
+          "id": 1,
+          "tipo": "multipla-escolha-imagem",
+          "enunciado": "<p>Baseado no bilidim do Michael Jackson (lá ele).</p><p>O que é possível concluir?</p><p><br></p><iframe class=\"ql-video\" frameborder=\"0\" allowfullscreen=\"true\" src=\"https://www.youtube.com/embed/Zi_XLOBDo_Y?showinfo=0\"></iframe><p><br></p>",
+          "recursoUrl": null,
+          "palavrasChave": [
+            {
+              "word": "Hee",
+              "traducao": "Hee"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "She was more like a beauty queen from a movie scene",
+              "imagemUrl": "https://cataas.com/cat"
+            },
+            {
+              "texto": "Hee, hee, hee  🕺",
+              "imagemUrl": "https://cataas.com/cat"
+            },
+            {
+              "texto": "Who will dance on the floor in the round",
+              "imagemUrl": "https://cataas.com/cat"
+            },
+            {
+              "texto": "And don't go around breaking young girl's hearts",
+              "imagemUrl": "https://cataas.com/cat"
+            }
+          ],
+          "respostaCorretaIndex": 1
+        },
+        {
+          "id": 2,
+          "tipo": "multipla-escolha-imagem",
+          "enunciado": "<p>Qual é o animal da foto?</p><p><br></p><p><br></p>",
+          "recursoUrl": "https://img.joomcdn.net/97f52a202e61b2e5a006a16218e012fc64e32a1d_original.jpeg",
+          "palavrasChave": [
+            {
+              "word": "lion",
+              "traducao": "leão"
+            }
+          ],
+          "opcoes": [
+            {
+              "texto": "Dog",
+              "imagemUrl": null
+            },
+            {
+              "texto": "Cat",
+              "imagemUrl": null
+            },
+            {
+              "texto": "Lion",
+              "imagemUrl": null
+            },
+            {
+              "texto": "Bug",
+              "imagemUrl": null
+            }
+          ],
+          "respostaCorretaIndex": 2
+        }
+      ],
+      "dataModificacao": "2025-06-09T18:27:37.959Z"
+    }
+  ],
+  "conteudos_professor": [
     {
-      "id": "2",
-      "atividadeId": 2,
-      "alunoId": 2,
-      "nota": 9.0
+      "id": "cont_prof_1749503242879_oho9c",
+      "professorId": "1",
+      "titulo": "conteúdo educacional",
+      "nivel": "Básico",
+      "descricao": "Educacional",
+      "conteudoHtml": "<p>conteúdo educacional conteúdo educacional conteúdo educacional conteúdo educacional conteúdo educacional </p>",
+      "dataCriacao": "2025-06-09T21:07:22.879Z"
+    }
+  ],
+  "turmas": [
+    {
+      "id": "b1b7",
+      "nome": "Turma do barulho",
+      "descricao": "Aulas introdutórias de inglês para o 1° Ano",
+      "professorId": "1",
+      "alunoIds": [
+        "3"
+      ],
+      "recursosIds": [
+        {
+          "idRecurso": "7",
+          "tipoRecurso": "licaoPlataforma"
+        }
+      ],
+      "dataCriacao": "2025-06-03T17:25:37.179Z",
+      "dataModificacao": "2025-06-10T00:24:00.703Z"
     }
   ]
 }

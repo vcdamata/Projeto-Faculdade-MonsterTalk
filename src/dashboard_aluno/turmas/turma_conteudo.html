@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conteúdo da Turma - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/aluno_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_turma_detalhes.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div id="sidebar"></div>
+
+    <main class="main-content">
+      <div class="conteudo-turma-container">
+        <header class="page-header">
+          <h1 id="tituloPaginaConteudoTurma" class="page-header-titulo">
+            Conteúdo da Turma: Carregando...
+          </h1>
+          <button id="btnVoltarParaTurmas" class="btn btn-page-header">
+            Voltar para Minhas Turmas
+          </button>
+        </header>
+
+        <section class="ct-feedback-area">
+          <div id="loading-message-ct" class="ct-mensagem hidden">
+            Carregando recursos da turma...
+          </div>
+          <div
+            id="error-message-ct"
+            class="ct-mensagem ct-mensagem-erro hidden"
+          >
+            Ocorreu um erro ao carregar os recursos.
+          </div>
+          <div
+            id="no-recursos-message-ct"
+            class="ct-mensagem ct-mensagem-info hidden"
+          >
+            Nenhum material de estudo foi adicionado a esta turma ainda.
+          </div>
+        </section>
+
+        <section
+          id="lista-recursos-turma"
+          class="ct-lista-recursos-container"
+        ></section>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/aluno_components.js"></script>
+    <script type="module" src="/src/js/aluno_turma_detalhes.js"></script>
+  </body>
+</html>

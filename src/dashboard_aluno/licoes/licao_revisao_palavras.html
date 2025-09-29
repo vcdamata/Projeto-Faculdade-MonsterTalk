@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revisão de Palavras - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/aluno_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_licao_revisao.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div id="sidebar"></div>
+
+    <main class="main-content">
+      <div class="revisao-container-geral">
+        <div class="page-header">
+          <h1 class="page-header-titulo">Revisando Palavras Aprendidas</h1>
+          <button id="btn-voltar" class="btn-voltar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M19 12H5"></path>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Voltar
+          </button>
+        </div>
+
+        <div id="loading-message-revisao" class="loading-message-revisao">
+          Carregando suas palavras...
+        </div>
+        <div
+          id="error-message-revisao"
+          class="error-message-revisao hidden"
+        ></div>
+        <div id="no-words-message-revisao" class="info-message-revisao hidden">
+          Você ainda não tem palavras aprendidas para revisar. Complete algumas
+          lições!
+        </div>
+
+        <div
+          id="cards-grid-container-revisao"
+          class="cards-grid-container-revisao hidden"
+        ></div>
+      </div>
+    </main>
+
+    <template id="revisao-card-template">
+      <div class="card-revisao">
+        <div class="card-inner-revisao">
+          <div class="card-face-revisao card-front-revisao">
+            <div class="card-content-revisao">
+              <h3 class="word-revisao-en">Word</h3>
+              <button class="btn-pronounce-card-revisao">🔊 Ouvir</button>
+            </div>
+          </div>
+          <div class="card-face-revisao card-back-revisao">
+            <div class="card-content-revisao">
+              <h3 class="word-revisao-pt">Palavra</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/aluno_components.js"></script>
+    <script type="module" src="/src/js/aluno_licao_revisao.js"></script>
+  </body>
+</html>

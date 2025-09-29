@@ -1,0 +1,298 @@
+.criar-licao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.titulo-pagina-criar-licao {
+    background-color: var(--cor-primaria); /* Cor do tema do professor */
+    color: white;
+    width: calc(100% + 1rem); /* Estende para as bordas do container pai */
+    padding: 1.2rem;
+    border-radius: 10px;
+    margin: 1rem; /* Estende para as bordas do container pai */
+    text-align: center;
+}
+
+.titulo-pagina-criar-licao h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#formCriarLicao, #formEditarLicao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-section {
+    border: 1px solid #e0e0e0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #fdfdff;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    color: var(--cor-texto-principal);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#formCriarLicao label, #formEditarLicao label {
+    display: block;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+#formCriarLicao input[type="text"],
+#formCriarLicao input[type="url"],
+#formCriarLicao select,
+#formCriarLicao textarea,
+#formEditarLicao input[type="text"],
+#formEditarLicao input[type="url"],
+#formEditarLicao select,
+#formEditarLicao textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+#formCriarLicao textarea, #formEditarLicao textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#formCriarLicao input[type="text"]:focus,
+#formCriarLicao input[type="url"]:focus,
+#formCriarLicao select:focus,
+#formCriarLicao textarea:focus,
+#formEditarLicao input[type="text"]:focus,
+#formEditarLicao input[type="url"]:focus,
+#formEditarLicao select:focus,
+#formEditarLicao textarea:focus {
+    border-color: #6A2C70;
+    box-shadow: 0 0 0 2px rgba(106, 44, 112, 0.2);
+    outline: none;
+}
+
+/* Estilos para o bloco de cada pergunta */
+.pergunta-bloco {
+    border: 1px dashed #bca0cb;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative; /* Para posicionar o botão de remover */
+}
+.pergunta-bloco:first-child {
+    margin-top: 0;
+}
+
+
+.pergunta-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.pergunta-header h4 {
+    margin: 0;
+    color: var(--cor-texto-principal);
+    font-size: 1.2rem;
+}
+
+.btn-remover-pergunta {
+    background-color: var(--cor-perigo);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+.btn-remover-pergunta:hover {
+    background-color: #c0392b;
+}
+
+
+/* Estilos para o contêiner do editor Quill */
+.quill-editor-container {
+    background-color: #fff; /* Garante fundo branco para o editor */
+    border-radius: 6px; /* Combina com os inputs */
+    /* O Quill adiciona sua própria borda, mas podemos precisar de ajustes */
+}
+.ql-toolbar {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.ql-container {
+    min-height: 100px; /* Altura mínima para o enunciado */
+    font-size: 1rem !important; /* Garante que o texto dentro do Quill tenha um bom tamanho */
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.ql-editor {
+    font-family: 'Baloo 2', cursive; /* Usa a mesma fonte */
+    padding: 12px 15px; /* Padding interno do editor */
+}
+
+
+.opcoes-respostas-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f6fc;
+    border-radius: 6px;
+}
+.opcoes-respostas-container > label {
+    font-weight: 600;
+    color: #5e3370;
+}
+
+.opcao-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.opcao-item input[type="radio"] {
+    width: auto; /* Tamanho padrão para radio */
+    margin-right: 5px;
+    accent-color: #6A2C70;
+}
+.opcao-item .opcao-texto {
+    flex-grow: 1;
+}
+.opcao-item .opcao-imagem-url {
+    flex-basis: 40%; /* Espaço para URL da imagem */
+    font-size: 0.9rem;
+}
+
+
+.btn-adicionar, .btn-salvar-licao {
+    display: block;
+    width: fit-content;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 1.5rem auto 0 auto; /* Centraliza e adiciona margem */
+}
+
+.btn-adicionar {
+    background-color: var(--cor-sucesso); /* Verde */
+}
+.btn-adicionar:hover {
+    background-color: #229954;
+    transform: translateY(-2px);
+}
+
+.btn-salvar-licao {
+    background-color: var(--cor-primaria); /* Cor principal do tema */
+}
+.btn-salvar-licao:hover {
+    background-color: var(--cor-primaria-hover);
+    transform: translateY(-2px);
+}
+
+.hidden { display: none !important; }
+
+.btn-cancelar {
+    background-color: #6c757d; /* Cinza */
+    color: white;
+    /* Reutilize estilos de .btn-adicionar ou .btn-salvar-licao se desejar */
+    display: block;
+    width: fit-content;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0.5rem auto 0 auto; /* Margem ajustada */
+}
+
+.btn-cancelar:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Mensagens específicas para esta página, se necessário */
+#loading-message-editar-licao, 
+#error-message-editar-licao {
+    /* Herda de .ml-mensagem ou defina estilos específicos */
+    font-size: 1.1rem; 
+    color: #555; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid #eee;
+}
+ #error-message-editar-licao.hidden,
+ #loading-message-editar-licao.hidden {
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 960px) {
+    .criar-licao-container {
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+    
+    .titulo-pagina-criar-licao h1 {
+        font-size: 1.5rem;
+    }
+
+    #formCriarLicao input[type="text"],
+    #formCriarLicao input[type="url"],
+    #formCriarLicao select,
+    #formCriarLicao textarea,
+    #formEditarLicao input[type="text"],
+    #formEditarLicao input[type="url"],
+    #formEditarLicao select,
+    #formEditarLicao textarea {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .form-section {
+        padding: 0.5rem;
+    }
+
+    .pergunta-bloco {
+        padding: 0.5rem;
+        border: none
+    }
+
+    .btn-adicionar, .btn-salvar-licao, .btn-cancelar {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}

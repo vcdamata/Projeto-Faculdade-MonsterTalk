@@ -1,0 +1,94 @@
+/* -----------------------------------------------------------------
+   ESTILOS PARA A PÁGINA DE CRIAÇÃO DE TURMA DO PROFESSOR
+   ----------------------------------------------------------------- */
+
+/* Container principal da página de criação de turma */
+.criar-turma-container {
+    padding: 1.5rem 2rem;
+    max-width: 700px; /* Largura adequada para um formulário mais simples */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+.ct-titulo-pagina {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--cor-primaria); /* Cor do tema do professor */
+    font-weight: 700;
+}
+
+/* Estilos para o formulário e seus campos */
+#formCriarTurma {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Espaçamento entre os campos do formulário */
+}
+
+.ct-form-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Espaçamento entre label e input/textarea */
+}
+
+.ct-form-campo label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #444; /* Cor um pouco mais escura para labels */
+}
+
+.ct-form-campo input[type="text"],
+.ct-form-campo textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ct-form-campo input[type="text"]:focus,
+.ct-form-campo textarea:focus {
+    border-color: var(--cor-primaria); /* Destaque ao focar */
+    box-shadow: 0 0 0 3px rgba(106, 44, 112, 0.15);
+    outline: none;
+}
+
+.ct-form-campo textarea {
+    resize: vertical; /* Permite redimensionamento vertical */
+    min-height: 100px;
+}
+
+/* Contêiner para os botões de ação do formulário */
+.ct-form-acoes {
+    display: flex;
+    justify-content: flex-end; /* Alinha botões à direita */
+    gap: 1rem; /* Espaço entre os botões */
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eaeaea;
+}
+
+/* -----------------------------------------------------------------
+   RESPONSIVIDADE
+   ----------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .criar-turma-container {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+    .ct-titulo-pagina {
+        font-size: 1.8rem;
+    }
+    .ct-form-acoes {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    .ct-btn {
+        width: 100%; /* Botões ocupam largura total */
+    }
+}

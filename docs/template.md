@@ -1,11 +1,19 @@
 # Template padrão do site
 
+## Cadastro de usuário
+![Cadastro](./img/template-site/cadastro.png)
+
+## Login
+![Cadastro](./img/template-site/login.png)
+
 ## Homepage Alunos
-![Homepage](./img/template-site/dashboard_aluno.png)
+![Homepage](./img/template-site/dashboard_aluno_atualizado.png)
 
 ## Homepage Professores
-![Homepage Professor](./img/template-site/dashboard_professor.png)
+![Homepage Professor](./img/template-site/dashboard_professor_atualizado.png)
 
+## Perfil de Usuário
+![Perfil_Usuario](./img/template-site/profile.png)
 
 ## Cores
 

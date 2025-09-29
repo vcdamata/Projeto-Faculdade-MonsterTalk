@@ -1,0 +1,155 @@
+/* Container principal da página de conteúdo da turma */
+.conteudo-turma-container {
+    padding: 1.5rem 2rem;
+    max-width: 900px; /* Ajuste conforme necessário */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+/* Mensagens de feedback */
+.ct-mensagem {
+    font-size: 1.1rem; 
+    color: #555; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    text-align: center;
+    margin: 25px auto;
+    border: 1px solid #eee;
+    max-width: 600px;
+}
+.ct-mensagem.hidden {
+    display: none !important;
+}
+.ct-mensagem-erro { 
+    color: #D8000C; 
+    background-color: #FFD2D2; 
+    border-color: #D8000C; 
+}
+.ct-mensagem-info {
+    color: #00529B; 
+    background-color: #BDE5F8; 
+    border-color: #A2CFF0;
+}
+
+/* Container para a lista/grid de cards de recursos */
+.ct-lista-recursos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Cards um pouco menores */
+    gap: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Estilos para cada card de recurso (lição/conteúdo) */
+.ct-card-recurso {
+    background-color: #f8f7ff;
+    border: 1px solid #e0d8f0;
+    border-radius: 12px;
+    padding: 1.2rem; /* Padding interno do card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    min-height: 180px; /* Altura mínima para consistência */
+}
+
+.ct-card-recurso:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(106, 44, 112, 0.12);
+}
+
+.ct-card-recurso-titulo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #6A2C70;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.ct-card-recurso-tipo {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ct-tipo-licaoPlataforma { background-color: var(--cor-primaria); } /* Azul */
+.ct-tipo-licaoProfessor { background-color: var(--cor-intermediario-inicio); } /* Roxo */
+.ct-tipo-conteudoProfessor { background-color: var(--cor-basico-inicio); } /* Verde */
+
+
+.ct-card-recurso-descricao {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+    /* Limitar número de linhas da descrição */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limita a 3 linhas */
+    line-clamp: 3; /* Propriedade padrão para compatibilidade */
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ct-card-recurso-nivel {
+    font-size: 0.8rem;
+    color: var(--cor-texto-secundario);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.ct-btn-acessar-recurso {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    align-self: flex-start; /* Alinha o botão à esquerda no card */
+    transition: background-color 0.2s ease;
+}
+
+.ct-btn-acessar-recurso:hover {
+    background-color: var(--cor-primaria-hover); 
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo-turma-container {
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+    .ct-lista-recursos-container {
+        grid-template-columns: 1fr; /* Uma coluna */
+    }
+    .ct-page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ct-titulo-pagina {
+        margin-bottom: 0.75rem;
+    }
+}

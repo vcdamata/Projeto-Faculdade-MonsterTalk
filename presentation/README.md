@@ -1,47 +1,59 @@
 # Apresentação
+## Resumo do Processo de Desenvolvimento
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+O desenvolvimento do **MonsterTalk** foi uma jornada completa de criação de uma aplicação web interativa, desde a concepção até a implementação e o deploy. O processo seguiu as seguintes etapas:
 
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
+1.  **Especificação:** Iniciámos com a definição de personas detalhadas — a aluna **Amanda**, que procura uma forma de aprendizagem divertida, e a professora **Camila**, que necessita de ferramentas de gestão eficazes. Com base nestas personas, elaborámos histórias de utilizador e definimos os requisitos funcionais e não funcionais que nortearam todo o projeto.
 
+2.  **Desenvolvimento e Arquitetura:** O projeto foi construído utilizando tecnologias de frontend (HTML5, CSS3, JavaScript ES6) e uma API simulada com `json-server`.
+   
+3.  **Implementação de Funcionalidades:** Desenvolvemos dois painéis completos e distintos:
+    * **Painel do Aluno:** Com um dashboard, lições interativas, atividades de "Palavra do Dia" e "Leitor de Notícias", e uma secção para revisão de vocabulário.
+    * **Painel do Professor:** Com um dashboard de métricas avançadas, gestão completa de turmas e ferramentas para a criação de lições e conteúdos personalizados.
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
+4.  **Testes e Validação:** Foram elaborados e executados planos de testes de software e usabilidade para garantir a qualidade, a funcionalidade e a facilidade de uso da aplicação.
 
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
+A solução final é uma plataforma funcional, segura e intuitiva, que cumpre todos os objetivos propostos e está publicada na web através do Render.
+
+---
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Monster Talk - Espantando o medo e soltando a voz
+
+---
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
-
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
+![alt text](apresentacao_capa.jpg)
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+| Ficheiro | Localização | Descrição |
+| :--- | :--- | :--- |
+| **Apresentação Final** | `/presentation/apresentacao_final.pdf` | Slides da apresentação final do projeto, resumindo todas as etapas, desde a concepção até a demonstração da solução. |
+
+* [Apresentação final](apresentacao_final.pdf) -- arquivo com os slides da apresentação final
+
+---
+
 
 ## Vídeo de demonstração
 
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
+| Ficheiro | Localização | Descrição |
+| :--- | :--- | :--- |
+| **Vídeo de Demonstração**| `/presentation/video_demonstracao.mp4` | Vídeo de 2-3 minutos que demonstra as principais funcionalidades do MonsterTalk em ação. |
 
-> **Algumas informações úteis**
-> - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
-> - O vídeo deve possuir uma narração que explica o que está sendo apresentado.
-> - Foque nas principais tarefas que o seu sistema desenvolveu. Não é necessário apresentar cada detalhe implementado.
-> - Não é necessário que todos os integrantes do grupo participem da gravação.
-> - Não é necessário que a face de algum integrante do grupo apareça na gravação.
-> - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
+* [Vídeo de demonstração](video_demonstracao.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
+Assista:
+
+
+
+
+https://github.com/user-attachments/assets/c8ff2711-d735-4719-a097-9c7cf8a7b44b
+
+
+
+
+---

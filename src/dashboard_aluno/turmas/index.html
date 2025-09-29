@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Turmas - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/aluno_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_turma_listagem.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div id="sidebar"></div>
+
+    <main class="main-content">
+      <div class="aluno-turmas-container">
+        <header class="page-header">
+          <h1 class="page-header-titulo">Minhas Turmas</h1>
+        </header>
+
+        <section class="at-feedback-area">
+          <div id="loading-message-at" class="at-mensagem hidden">
+            Carregando suas turmas...
+          </div>
+          <div
+            id="error-message-at"
+            class="at-mensagem at-mensagem-erro hidden"
+          >
+            Ocorreu um erro ao carregar suas turmas.
+          </div>
+          <div
+            id="no-turmas-message-at"
+            class="at-mensagem at-mensagem-info hidden"
+          >
+            Você ainda não está inscrito em nenhuma turma.
+          </div>
+        </section>
+
+        <section id="lista-turmas-aluno" class="at-lista-container"></section>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/aluno_components.js"></script>
+    <script type="module" src="/src/js/aluno_turma_listagem.js"></script>
+  </body>
+</html>

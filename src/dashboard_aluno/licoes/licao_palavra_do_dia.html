@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palavra do Dia: Exemplos - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/aluno_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/aluno_licao_palavra_do_dia.css" />
+
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="sidebar"></div>
+
+    <main class="main-content">
+      <div class="page-header">
+        <h1 class="page-header-titulo">Palavra do Dia</h1>
+        <button id="btn-voltar" class="btn-voltar">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M19 12H5"></path>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          Voltar
+        </button>
+      </div>
+
+      <div id="loading-message-pdd" class="loading-message-pdd">
+        Carregando palavra...
+      </div>
+      <div id="error-message-pdd" class="error-message-pdd hidden"></div>
+
+      <div class="card-container-pdd hidden">
+        <div class="card-pdd" id="flip-card-pdd">
+          <div class="card-inner-pdd">
+            <div class="card-face-pdd card-front-pdd">
+              <div class="card-content-pdd">
+                <h2 class="word-pdd" id="word-en">Word</h2>
+                <p class="examples-title-pdd">Exemplo (EN):</p>
+                <p class="example-sentence-pdd" id="example-en-sentence"></p>
+              </div>
+            </div>
+            <div class="card-face-pdd card-back-pdd">
+              <div class="card-content-pdd">
+                <h2 class="word-pdd" id="word-pt">Palavra</h2>
+                <p class="examples-title-pdd">Exemplo Traduzido (PT-BR):</p>
+                <p class="example-sentence-pdd" id="example-pt-sentence"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls-pdd hidden">
+        <button id="btn-pronounce-pdd" class="control-button-pdd">
+          🔊 Ouvir Palavra (EN)
+        </button>
+        <button id="btn-next-word-pdd" class="control-button-pdd">
+          Outra Palavra
+        </button>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/aluno_components.js"></script>
+    <script type="module" src="/src/js/aluno_licao_palavra_do_dia.js"></script>
+  </body>
+</html>

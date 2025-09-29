@@ -6,14 +6,16 @@
 
 `SEMESTRE: 1º`
 
+`SITE: https://monstertalk.onrender.com`
+
 Plataforma digital que centraliza e organiza conteúdos para o ensino de idiomas, oferecendo um ambiente estruturado, progressivo e acessível para alunos, professores e pais.
 
 ## Integrantes
 
-* Agatha Larissa da Silva Damasceno
-* César Acassio de Almeida
-* José Vitor de Assis Andrade
 * André Bacelar Gonçalves
+* Bruno Santiago da Silva
+* César Acassio de Almeida
+* Victor Augusto Lobatto da Mata
 
 
 ## Orientador

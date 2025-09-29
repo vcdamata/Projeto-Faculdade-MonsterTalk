@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciar Turma - MonsterTalk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/professor_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/professor_turmas_editar.css" />
+    <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+    <script src="/src/js/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="sidebar"></div>
+
+    <main class="main-content">
+      <div class="editar-turma-container">
+        <div class="et-header">
+          <h1 id="tituloPaginaEditarTurma" class="et-titulo-pagina">
+            Gerenciar Turma: Carregando...
+          </h1>
+        </div>
+
+        <div id="loading-message-et" class="feedback_mensagem">
+          Carregando dados da turma...
+        </div>
+        <div
+          id="error-message-et"
+          class="feedback_mensagem feedback_mensagem_erro hidden"
+        ></div>
+
+        <form id="formEditarTurma" class="hidden">
+          <input type="hidden" id="turmaId" name="turmaId" />
+
+          <section class="et-form-section">
+            <h2>Detalhes da Turma</h2>
+            <div class="et-form-campo">
+              <label for="turmaNomeEditar">Nome da Turma:</label>
+              <input
+                type="text"
+                id="turmaNomeEditar"
+                name="turmaNomeEditar"
+                required
+              />
+            </div>
+            <div class="et-form-campo">
+              <label for="turmaDescricaoEditar">Descrição da Turma:</label>
+              <textarea
+                id="turmaDescricaoEditar"
+                name="turmaDescricaoEditar"
+                rows="3"
+              ></textarea>
+            </div>
+          </section>
+
+          <section class="et-form-section">
+            <h2>Alunos na Turma (<span id="contadorAlunos">0</span>)</h2>
+            <div id="listaAlunosTurma" class="et-lista-gerenciamento">
+              <p>Nenhum aluno nesta turma ainda.</p>
+            </div>
+            <label for="selectAdicionarAluno">Adicionar Aluno à Turma:</label>
+            <div class="et-add-item-controls">
+              <select id="selectAdicionarAluno">
+                <option value="">Selecione um aluno...</option>
+              </select>
+              <button
+                type="button"
+                id="btnAdicionarAluno"
+                class="et-btn-adicionar-item"
+              >
+                Adicionar Aluno
+              </button>
+            </div>
+          </section>
+
+          <section class="et-form-section">
+            <h2>Recursos da Turma (<span id="contadorRecursos">0</span>)</h2>
+            <div id="listaRecursosTurma" class="et-lista-gerenciamento">
+              <p>Nenhum recurso nesta turma ainda.</p>
+            </div>
+            <label for="selectAdicionarRecurso"
+              >Adicionar Recurso à Turma:</label
+            >
+            <div class="et-add-item-controls">
+              <select id="selectAdicionarRecurso">
+                <option value="">Selecione um recurso...</option>
+              </select>
+              <button
+                type="button"
+                id="btnAdicionarRecurso"
+                class="et-btn-adicionar-item"
+              >
+                Adicionar Recurso
+              </button>
+            </div>
+          </section>
+
+          <div class="et-form-acoes">
+            <button type="submit" class="btn btn-primario">
+              Salvar Alterações
+            </button>
+            <button
+              type="button"
+              id="btnCancelarEdicaoTurma"
+              class="btn btn-secundario"
+            >
+              Voltar para Turmas
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/professor_components.js"></script>
+    <script type="module" src="/src/js/professor_turmas_editar.js"></script>
+  </body>
+</html>

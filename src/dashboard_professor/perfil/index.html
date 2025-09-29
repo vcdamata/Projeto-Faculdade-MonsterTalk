@@ -10,37 +10,57 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/src/styles/dashboard_professor.css" />
+    <link rel="stylesheet" href="/src/styles/professor_dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/perfil_usuario.css" />
+
     <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
     <title>MonsterHub - Editar Perfil</title>
+
+    <!-- Adicionado SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <div id="header"></div>
-
     <div id="sidebar"></div>
 
-    <main>
-      <div class="topbar-main">
-        <div class="topbar-container">
-          <h1>Editar Perfil</h1>
-          <button id="btnExcluirConta" class="btn-excluir">
-            Excluir Conta
-          </button>
-        </div>
+    <main class="main-content">
+      <div class="page-header">
+        <h1>Editar Perfil</h1>
+        <button id="btnExcluirConta" class="btn btn-page-header">
+          Excluir Conta
+        </button>
       </div>
+
       <form id="formEditarPerfil">
-        <div class="campo">
-          <label for="nome">Nome Completo</label>
+        <div class="campo-avatar-container">
+          <div class="card-avatar">
+            <label for="avatarAtualPreview">Avatar Atual:</label>
+            <img
+              id="avatarAtualPreview"
+              src="/src/img/perfil_avatar/avatar_01.svg"
+              alt="Avatar Atual"
+              class="avatar-preview"
+            />
+          </div>
+
+          <div class="card-avatar">
+            <label for="avatarGrid">Escolha seu novo avatar:</label>
+            <div id="avatarGrid" class="avatar-grid"></div>
+          </div>
+        </div>
+
+        <div class="form-group-perfil">
+          <label for="nome">Nome Completo:</label>
           <input type="text" id="nome" name="nome" required />
         </div>
 
-        <div class="campo">
-          <label for="email">E-mail</label>
+        <div class="form-group-perfil">
+          <label for="email">E-mail:</label>
           <input type="email" id="email" name="email" required />
         </div>
 
-        <div class="campo">
-          <label for="senhaAtual">Senha Atual</label>
+        <div class="form-group-perfil">
+          <label for="senhaAtual">Senha Atual:</label>
           <input
             type="password"
             id="senhaAtual"
@@ -50,8 +70,8 @@
           />
         </div>
 
-        <div class="campo">
-          <label for="novaSenha">Nova Senha</label>
+        <div class="form-group-perfil">
+          <label for="novaSenha">Nova Senha:</label>
           <input
             type="password"
             id="novaSenha"
@@ -60,10 +80,14 @@
           />
         </div>
 
-        <button type="submit" class="btn-salvar">Salvar Alterações</button>
+        <button type="submit" class="btn btn-primario">
+          Salvar Alterações
+        </button>
       </form>
     </main>
-    <script src="/src/js/components_professor.js"></script>
-    <script src="/src/js/editar_perfil.js"></script>
+
+    <script type="module" src="/src/js/utils.js"></script>
+    <script type="module" src="/src/js/professor_components.js"></script>
+    <script type="module" src="/src/js/perfil_usuario.js"></script>
   </body>
 </html>

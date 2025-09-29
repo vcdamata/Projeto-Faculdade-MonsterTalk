@@ -1,0 +1,200 @@
+.noticias-container-geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    max-width: 750px; /* Um pouco mais largo para notícias */
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.lesson-title-noticias {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    overflow: hidden; /* Esconde os cards que não estão visíveis */
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Animação do slide */
+    /* A largura será definida pelo JS (número de cards * 100%) */
+}
+
+.card-noticia {
+    min-width: 100%; 
+    height: 600px; 
+    perspective: 1500px;
+    box-sizing: border-box;
+    padding: 0 10px; 
+}
+
+.card-inner-noticia {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer; /* Para indicar que pode ser virado */
+}
+
+.card-noticia.is-flipped .card-inner-noticia {
+    transform: rotateY(180deg);
+}
+
+.card-face-noticia {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha conteúdo ao topo */
+    border-radius: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.card-front-noticia {
+    background: #ffffff; /* Fundo branco para a frente */
+    color: #333;
+}
+
+.card-back-noticia {
+    background: #f0f2f5; /* Fundo levemente diferente para o verso */
+    color: #333;
+    transform: rotateY(180deg);
+}
+
+.noticia-imagem, 
+.noticia-imagem-verso {
+    width: 100%;
+    height: 200px; /* Altura fixa para a imagem da notícia */
+    object-fit: cover; /* Garante que a imagem cubra a área, pode cortar */
+    border-radius: 10px 10px 0 0; /* Arredonda cantos superiores da imagem */
+    margin-bottom: 15px;
+}
+
+.noticia-conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Scroll para descrições longas */
+    padding-right: 5px; /* Espaço para scrollbar */
+}
+
+
+.noticia-titulo-en, .noticia-titulo-pt {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #6A2C70;
+}
+.card-back-noticia .noticia-titulo-pt {
+    color: #333; /* Cor diferente para o título traduzido */
+}
+
+.noticia-descricao-en, .noticia-descricao-pt {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+    flex-grow: 1; /* Ocupa o espaço restante */
+}
+
+.btn-ouvir-noticia {
+    color: #644BBE;
+    border:  2px solid #644BBE;
+    background-color: white;
+    padding: 8px 15px;
+    font-size: 0.85rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: auto; /* Empurra para o final do .noticia-conteudo */
+    align-self: center; /* Alinha à esquerda */
+}
+.btn-ouvir-noticia:hover {
+    background-color: rgba(100, 75, 190, 0.1);
+    transform: scale(0.95);
+}
+
+
+/* Navegação do Carrossel */
+.carousel-nav-btn {
+    position: absolute;
+    top: 85%;
+    background-color: var(--cor-texto-principal);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.carousel-nav-btn.prev { left: 5%; }
+.carousel-nav-btn.prev:hover { transform: translateX(-3px); background-color: var(--cor-primaria);}
+.carousel-nav-btn.next { right: 5%; }
+.carousel-nav-btn.next:hover { transform: translateX(3px); background-color: var(--cor-primaria); }
+.carousel-nav-btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+
+.article-indicator {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.controls-noticias {
+    margin-top: 25px;
+}
+.control-button-noticias {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: #777;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.control-button-noticias:hover {
+    background-color: #666;
+    transform: translateY(-2px);
+}
+
+/* Mensagens de Loading e Erro */
+.loading-message-noticias, .error-message-noticias {
+    font-size: 1.1rem; color: #555; padding: 15px 20px;
+    background-color: #fff; border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); text-align: center;
+    width: 100%; max-width: 400px; box-sizing: border-box; margin: 20px 0;
+}
+.error-message-noticias { color: #D8000C; background-color: #FFD2D2; border: 1px solid #D8000C; }
+.hidden { display: none !important; }
