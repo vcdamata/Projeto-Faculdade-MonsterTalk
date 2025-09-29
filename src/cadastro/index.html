@@ -12,6 +12,9 @@
     />
     <link rel="stylesheet" href="/src/styles/cadastro.css" />
     <link rel="shortcut icon" type="imagex/svg" href="/src/img/mascote.svg" />
+
+    <!-- SweetAlert2 -->
+    <script src="/src/js/sweetalert2.all.min.js"></script>
   </head>
 
   <body class="cadastro-page">
@@ -93,23 +96,20 @@
           />
         </div>
 
-        <button
-          type="button"
-          class="login"
-          onclick="location.href='/src/login/'"
-        >
-          Ir para o login
-        </button>
-        <button type="submit" class="cadastrar">Cadastrar</button>
-
-        <p
-          id="erro"
-          style="color: red; text-align: center; margin-top: 10px"
-        ></p>
+        <div class="btn-group">
+          <button type="submit" class="cadastrar">Cadastrar</button>
+          <button
+            type="button"
+            class="login"
+            onclick="location.href='/src/login/'"
+          >
+            Ir para o login
+          </button>
+        </div>
       </form>
     </main>
 
     <!-- scripts -->
-    <script src="/src/js/cadastro.js"></script>
+    <script type="module" src="/src/js/cadastro.js"></script>
   </body>
 </html>
